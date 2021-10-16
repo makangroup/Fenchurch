@@ -1,0 +1,52 @@
+10:36:17.162 [I] [800001b80007fc00b63f84710c7967bb] WindcavePaymentProcessor::ValidatePaymentForm()
+10:36:17.163 [I] [800001b80007fc00b63f84710c7967bb] WindcavePaymentProcessor::GetPaymentInfo()
+10:43:20.224 [I] [800002db0001fd00b63f84710c7967bb] WindcavePaymentProcessor::PostProcessPayment()
+10:43:20.225 [I] [800002db0001fd00b63f84710c7967bb] WindcavePaymentProcessor.SessionExists(89)
+10:43:25.474 [I] [800002db0001fd00b63f84710c7967bb] WindcavePaymentProcessor.GetXID()
+10:43:25.475 [I] [800002db0001fd00b63f84710c7967bb] WindcavePaymentProcessor.GetXID generated:6d26c2a6abd31d0a16482c0fdf6ca39a-0001-00000089-purchase
+10:43:25.500 [I] [800002db0001fd00b63f84710c7967bb] WindcavePaymentProcessor.CreateSession(89, 6d26c2a6abd31d0a16482c0fdf6ca39a-0001-00000089-purchase, 0, <?xml version="1.0" encoding="utf-16"?><DictionarySerializer><item><key>Save card details</key><value>False</value></item><item><key>Use previously saved card</key><value>False</value></item></DictionarySerializer>)
+10:43:25.502 [I] [800002db0001fd00b63f84710c7967bb] WindcaveHelper::GetTransactionObjFromOrderObj()
+10:43:25.651 [I] [800002db0001fd00b63f84710c7967bb] WindcaveHelper.GetPluginVersion()
+10:43:25.652 [I] [800002db0001fd00b63f84710c7967bb] WindcaveRestClient.GetPostResponseBodyAsync()
+10:43:25.654 [I] [800002db0001fd00b63f84710c7967bb] WindcaveRestClient.DoPostAsync(https://sec.windcave.com, api/v1/sessions, RmVuY2h1cmNoTGlxdW9yUkVTVF9EZXY6UGFzc3dvcmRAMTIzNA==, {"amount":"25.00","callbackUrls":{"approved":"http:\/\/localhost:15536\/Payments\/Windcave\/HandleApproved","cancelled":"http:\/\/localhost:15536\/Payments\/Windcave\/HandleCancelled","declined":"http:\/\/localhost:15536\/Payments\/Windcave\/HandleDeclined"},"cardId":null,"currency":"NZD","customer":{"account":"1","billing":{"address1":"Sapwood Crescent, Takanini","address2":"Takanini","city":"Auckland","countryCode":"NZ","name":"Swati Patel","phoneNumber":"0221004322","postalCode":"2582","state":null},"email":"swati.prity21@gmail.com","firstName":"Swati","lastName":"Patel","phoneNumber":"0221004322","shipping":{"address1":"Sapwood Crescent, Takanini","address2":"Takanini","city":"Auckland","countryCode":"NZ","name":"Swati Patel","phoneNumber":"0221004322","postalCode":"2582","state":null}},"expires":null,"language":"en-NZ","merchantReference":"89","methods":["card","account2account"],"notificationUrl":"http:\/\/localhost:15536\/Payments\/Windcave\/HandleNotificationCallback","storeCard":false,"storeCustomer":false,"storedCardIndicator":null,"type":"purchase"}, Nop.Core.Domain.Orders.Order, 6d26c2a6abd31d0a16482c0fdf6ca39a-0001-00000089-purchase)
+10:43:25.655 [I] [800002db0001fd00b63f84710c7967bb] WindcaveRestClient.SetClientProps()
+10:43:25.784 [I] [800002db0001fd00b63f84710c7967bb] WindcavePaymentProcessor.AddAuthErrorNoteToOrder(89, Response. StatusCode:403 Body:{
+    "requestId" : "1201437047",
+    "timestampUtc" : "2021-05-05T22:43:26Z",
+    "errors" : [
+        {
+            "message" : "Invalid username or key"
+        }
+    ]
+})
+10:43:25.887 [I] [800002db0001fd00b63f84710c7967bb] WindcavePaymentProcessor.CreateSession. Request Fails: 403 Forbidden
+10:43:25.887 [I] [800002db0001fd00b63f84710c7967bb] WindcavePaymentProcessor.CreateSession. Error Field:  | Error: Invalid username or key
+10:43:26.294 [I] [8000029a0006ff00b63f84710c7967bb] WindcavePaymentProcessingController.HandleApiError()
+10:43:26.295 [E] [8000029a0006ff00b63f84710c7967bb] WindcavePaymentProcessingController.HandleApiError(89, 403)
+11:06:38.751 [I] [800005460007fe00b63f84710c7967bb] WindcavePaymentProcessor::ValidatePaymentForm()
+11:06:38.752 [I] [800005460007fe00b63f84710c7967bb] WindcavePaymentProcessor::GetPaymentInfo()
+11:30:13.869 [I] [800000e90004fc00b63f84710c7967bb] WindcavePaymentProcessor::ValidatePaymentForm()
+11:30:13.869 [I] [800000e90004fc00b63f84710c7967bb] WindcavePaymentProcessor::GetPaymentInfo()
+11:30:19.996 [I] [800000eb0004fc00b63f84710c7967bb] WindcavePaymentProcessor::PostProcessPayment()
+11:30:19.997 [I] [800000eb0004fc00b63f84710c7967bb] WindcavePaymentProcessor.SessionExists(92)
+11:30:25.240 [I] [800000eb0004fc00b63f84710c7967bb] WindcavePaymentProcessor.GetXID()
+11:30:25.240 [I] [800000eb0004fc00b63f84710c7967bb] WindcavePaymentProcessor.GetXID generated:7cf272cffcc92a6542c3f1a9430ea4fa-0001-00000092-purchase
+11:30:25.246 [I] [800000eb0004fc00b63f84710c7967bb] WindcavePaymentProcessor.CreateSession(92, 7cf272cffcc92a6542c3f1a9430ea4fa-0001-00000092-purchase, 0, <?xml version="1.0" encoding="utf-16"?><DictionarySerializer><item><key>Save card details</key><value>False</value></item><item><key>Use previously saved card</key><value>False</value></item></DictionarySerializer>)
+11:30:25.248 [I] [800000eb0004fc00b63f84710c7967bb] WindcaveHelper::GetTransactionObjFromOrderObj()
+11:30:25.341 [I] [800000eb0004fc00b63f84710c7967bb] WindcaveHelper.GetPluginVersion()
+11:30:25.350 [I] [800000eb0004fc00b63f84710c7967bb] WindcaveRestClient.GetPostResponseBodyAsync()
+11:30:25.352 [I] [800000eb0004fc00b63f84710c7967bb] WindcaveRestClient.DoPostAsync(https://sec.windcave.com, api/v1/sessions, RmVuY2h1cmNoTGlxdW9yUkVTVF9EZXY6UGFzc3dvcmRAMTIzNA==, {"amount":"25.00","callbackUrls":{"approved":"http:\/\/localhost:15536\/Payments\/Windcave\/HandleApproved","cancelled":"http:\/\/localhost:15536\/Payments\/Windcave\/HandleCancelled","declined":"http:\/\/localhost:15536\/Payments\/Windcave\/HandleDeclined"},"cardId":null,"currency":"NZD","customer":{"account":"1","billing":{"address1":"Sapwood Crescent, Takanini","address2":"Takanini","city":"Auckland","countryCode":"NZ","name":"Swati Patel","phoneNumber":"0221004322","postalCode":"2582","state":null},"email":"swati.prity21@gmail.com","firstName":"Swati","lastName":"Patel","phoneNumber":"0221004322","shipping":{"address1":"Sapwood Crescent, Takanini","address2":"Takanini","city":"Auckland","countryCode":"NZ","name":"Swati Patel","phoneNumber":"0221004322","postalCode":"2582","state":null}},"expires":null,"language":"en-NZ","merchantReference":"92","methods":["card","account2account"],"notificationUrl":"http:\/\/localhost:15536\/Payments\/Windcave\/HandleNotificationCallback","storeCard":false,"storeCustomer":false,"storedCardIndicator":null,"type":"purchase"}, Nop.Core.Domain.Orders.Order, 7cf272cffcc92a6542c3f1a9430ea4fa-0001-00000092-purchase)
+11:30:25.353 [I] [800000eb0004fc00b63f84710c7967bb] WindcaveRestClient.SetClientProps()
+11:30:25.466 [I] [800000eb0004fc00b63f84710c7967bb] WindcavePaymentProcessor.AddAuthErrorNoteToOrder(92, Response. StatusCode:403 Body:{
+    "requestId" : "601148691",
+    "timestampUtc" : "2021-05-05T23:30:26Z",
+    "errors" : [
+        {
+            "message" : "Invalid username or key"
+        }
+    ]
+})
+11:30:25.552 [I] [800000eb0004fc00b63f84710c7967bb] WindcavePaymentProcessor.CreateSession. Request Fails: 403 Forbidden
+11:30:25.552 [I] [800000eb0004fc00b63f84710c7967bb] WindcavePaymentProcessor.CreateSession. Error Field:  | Error: Invalid username or key
+11:30:25.941 [I] [800002a30006ff00b63f84710c7967bb] WindcavePaymentProcessingController.HandleApiError()
+11:30:25.942 [E] [800002a30006ff00b63f84710c7967bb] WindcavePaymentProcessingController.HandleApiError(92, 403)

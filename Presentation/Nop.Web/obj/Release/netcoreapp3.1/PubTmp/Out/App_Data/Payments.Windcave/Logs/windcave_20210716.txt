@@ -1,0 +1,4 @@
+14:40:17.890 [I] [800000db0006fb00b63f84710c7967bb] WindcavePaymentProcessor::ValidatePaymentForm()
+14:40:17.891 [I] [800000db0006fb00b63f84710c7967bb] WindcavePaymentProcessor::GetPaymentInfo()
+14:42:09.234 [I] [800000950002fb00b63f84710c7967bb] WindcavePaymentProcessor::ValidatePaymentForm()
+14:42:09.234 [I] [800000950002fb00b63f84710c7967bb] WindcavePaymentProcessor::GetPaymentInfo()

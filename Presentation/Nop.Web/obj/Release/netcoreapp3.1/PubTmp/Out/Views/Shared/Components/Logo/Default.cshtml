@@ -1,0 +1,12 @@
+﻿@model LogoModel
+<a href="@Url.RouteUrl("Homepage")">
+    @if (@Model.LogoPath == "https://fenchurch.co.nz/images/thumbs/0000123_logo.png")
+    {
+        <img title="" alt="@Model.StoreName" src="https://www.fenchurch.co.nz/images/thumbs/0000123_logo.png">
+    }
+    else
+    {
+        <img title="" alt="@Model.StoreName" src="@Model.LogoPath">
+    }
+
+</a>

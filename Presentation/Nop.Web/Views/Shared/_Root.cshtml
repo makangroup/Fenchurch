@@ -1,0 +1,64 @@
+﻿@{
+    Layout = "_Root.Head";
+}
+@await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.BodyStartHtmlTagAfter })
+@await Html.PartialAsync("_Notifications")
+@await Html.PartialAsync("_JavaScriptDisabledWarning")
+@await Html.PartialAsync("_OldInternetExplorerWarning")
+
+<div class="master-wrapper-page">
+
+
+    @await Html.PartialAsync("_Header")
+
+    <script asp-location="Footer">
+        var localized_data = {
+            AjaxCartFailure: "@T("AjaxCart.Failure")"
+        };
+        AjaxCart.init(false, '.header-links .cart-qty', '.header-links .wishlist-qty', '#flyout-cart', localized_data);
+    </script>
+    @**@
+<div class="header-menu masterwrapperpage" id="masterwrapperpage" style="position:fixed;">
+    <nav class="nav-menu d-none d-lg-block">
+            @await Component.InvokeAsync("TopMenu")
+           
+        </nav>
+</div>
+  
+    <div class="master-wrapper-content" id="masterpage">
+
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.ContentBefore })
+
+        @if (IsSectionDefined("Breadcrumb"))
+        {
+            <div class="paddingofcategoriespage">
+                @RenderSection("Breadcrumb")
+            </div>
+        }
+
+        <div class="master-column-wrapper">
+
+            @RenderBody()
+        </div>
+
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.ContentAfter })
+    </div>
+    @await Component.InvokeAsync("Footer")
+</div>
+    @*<script asp-location="Footer">
+        $(document).ready(function () {
+            $(window).bind('scroll', function () {
+                let navHeight = $(window).height() - 600;
+                if ($(window).scrollTop() > navHeight) {
+                    $('#masterwrapperpage').addClass('header-menu1');
+                } else {
+                    $('#masterwrapperpage').removeClass('header-menu1');
+                }
+            });
+        });
+       
+    </script>*@
+    @await Component.InvokeAsync("EuCookieLaw")
+    @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.BodyEndHtmlTagBefore })
+
+ 

@@ -1,0 +1,1425 @@
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Services.deps.json
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Services.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Services.pdb
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Core.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.Immutable.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Core.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Data.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Core.pdb
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Data.pdb
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.csprojAssemblyReference.cache
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.AssemblyInfoInputs.cache
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.AssemblyInfo.cs
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.csproj.CoreCompileInputs.cache
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.csproj.CopyComplete
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.dll
+C:\Users\rasik\source\repos\RyanSmith3402443\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.pdb
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Services.deps.json
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Services.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Services.pdb
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Memory.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.DependencyInjection.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Core.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Stores.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.Immutable.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.DiagnosticSource.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Core.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Data.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Core.pdb
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Data.pdb
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.csprojAssemblyReference.cache
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.csproj.CoreCompileInputs.cache
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.AssemblyInfoInputs.cache
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.AssemblyInfo.cs
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.csproj.CopyComplete
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.dll
+D:\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.pdb
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Services.deps.json
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Services.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Services.pdb
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Core.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.Immutable.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Core.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Data.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Core.pdb
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Data.pdb
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.csprojAssemblyReference.cache
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.AssemblyInfoInputs.cache
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.AssemblyInfo.cs
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.csproj.CoreCompileInputs.cache
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.csproj.CopyComplete
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.dll
+C:\Users\rasik\OneDrive\Desktop\Fenchurch final\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.pdb
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Services.deps.json
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Services.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Services.pdb
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Memory.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.DependencyInjection.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Core.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Stores.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.Immutable.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.DiagnosticSource.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Core.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Data.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Core.pdb
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Data.pdb
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.csprojAssemblyReference.cache
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.AssemblyInfoInputs.cache
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.AssemblyInfo.cs
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.csproj.CoreCompileInputs.cache
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.csproj.CopyComplete
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.dll
+C:\Fenchurch\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.pdb
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Services.deps.json
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Services.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Services.pdb
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Memory.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.DependencyInjection.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Core.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Stores.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.Immutable.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.DiagnosticSource.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Core.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Data.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Core.pdb
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\bin\Debug\netcoreapp3.1\Nop.Data.pdb
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.csprojAssemblyReference.cache
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.csproj.CoreCompileInputs.cache
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.AssemblyInfoInputs.cache
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.AssemblyInfo.cs
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.csproj.CopyComplete
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.dll
+D:\Makan Work\Fenchurch\Libraries\Nop.Services\obj\Debug\netcoreapp3.1\Nop.Services.pdb
