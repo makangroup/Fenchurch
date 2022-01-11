@@ -27,6 +27,7 @@ namespace Nop.Web.Areas.Admin.Models.Orders
             OrderStatusIds = new List<int>();
             PaymentStatusIds = new List<int>();
             ShippingStatusIds = new List<int>();
+            OrderStauses = new List<OrderStatusModel>();
         }
 
         #endregion
@@ -104,6 +105,9 @@ namespace Nop.Web.Areas.Admin.Models.Orders
         public IList<SelectListItem> AvailableCountries { get; set; }
 
         public bool HideStoresList { get; set; }
+
+        public int OrderStatusId { get; set; }
+        public IList<OrderStatusModel> OrderStauses { get; set; }
 
         #endregion
     }

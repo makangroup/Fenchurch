@@ -22,6 +22,7 @@ using Nop.Services.Gdpr;
 using Nop.Services.Helpers;
 using Nop.Services.Localization;
 using Nop.Services.Logging;
+using Nop.Services.Media;
 using Nop.Services.Messages;
 using Nop.Services.Orders;
 using Nop.Services.Security;
@@ -72,6 +73,8 @@ namespace Nop.Web.Areas.Admin.Controllers
         private readonly IWorkflowMessageService _workflowMessageService;
         private readonly TaxSettings _taxSettings;
         private readonly IImportManager _importManager;
+        private readonly IPictureService _pictureService;
+        private readonly IDownloadService _downloadService;
         #endregion
 
         #region Ctor
@@ -107,7 +110,9 @@ namespace Nop.Web.Areas.Admin.Controllers
             IWorkContext workContext,
             IWorkflowMessageService workflowMessageService,
             TaxSettings taxSettings,
-            IImportManager importManager)
+            IImportManager importManager,
+            IPictureService pictureService,
+            IDownloadService downloadService)
         {
             _customerSettings = customerSettings;
             _dateTimeSettings = dateTimeSettings;
@@ -141,6 +146,8 @@ namespace Nop.Web.Areas.Admin.Controllers
             _workflowMessageService = workflowMessageService;
             _taxSettings = taxSettings;
             _importManager = importManager;
+            _pictureService = pictureService;
+            _downloadService = downloadService;
         }
 
         #endregion
@@ -516,7 +523,7 @@ namespace Nop.Web.Areas.Admin.Controllers
 
         [HttpPost, ParameterBasedOnFormName("save-continue", "continueEditing")]
         [FormValueRequired("save", "save-continue")]
-        public virtual IActionResult Edit(CustomerModel model, bool continueEditing, IFormCollection form)
+        public virtual IActionResult Edit(CustomerModel model, bool continueEditing, IFormCollection form, IFormFile uploadedFile1)
         {
             if (!_permissionService.Authorize(StandardPermissionProvider.ManageCustomers))
                 return AccessDeniedView();
@@ -539,6 +546,14 @@ namespace Nop.Web.Areas.Admin.Controllers
             {
                 ModelState.AddModelError(string.Empty, customerRolesError);
                 _notificationService.ErrorNotification(customerRolesError);
+            }
+
+            if (uploadedFile1 != null)
+            {
+                var avatarMaxSize = 5048576;
+
+                if (uploadedFile1.Length > avatarMaxSize)
+                    ModelState.AddModelError("", _localizationService.GetResource("Common.LessThan2MB"));
             }
 
             // Ensure that valid email address is entered if Registered role is checked to avoid registered customers with empty email address
@@ -718,6 +733,15 @@ namespace Nop.Web.Areas.Admin.Controllers
                     }
 
                     _customerService.UpdateCustomer(customer);
+
+                    if (uploadedFile1 != null)
+                    {
+                        var avatarPictureId = _genericAttributeService.GetAttribute<int>(customer, NopCustomerDefaults.AvatarPictureIdAttribute);
+
+                        var customerPictureBinary = _downloadService.GetDownloadBits(uploadedFile1);
+
+                        _pictureService.UpdatePicture(avatarPictureId, customerPictureBinary, uploadedFile1.ContentType, null);
+                    }
 
                     //ensure that a customer with a vendor associated is not in "Administrators" role
                     //otherwise, he won't have access to the other functionality in admin area
@@ -1170,7 +1194,7 @@ namespace Nop.Web.Areas.Admin.Controllers
                 ?? throw new ArgumentException("No customer found with the specified id", nameof(customerId));
 
             //try to get an address with the specified id
-            var address = _customerService.GetCustomerAddress(customer.Id, id);            
+            var address = _customerService.GetCustomerAddress(customer.Id, id);
 
             if (address == null)
                 return Content("No address found with the specified id");

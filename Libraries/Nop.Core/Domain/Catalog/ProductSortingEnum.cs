@@ -34,5 +34,16 @@
         /// Product creation date
         /// </summary>
         CreatedOn = 15,
+
+        SkuAsc = 17,
+        SkuDesc = 18,
+        ProductTypeAsc = 19,
+        ProductTypeDesc = 20,
+        PublishedAsc = 21,
+        PublishedDesc = 22,
+        IdAsc = 1,
+        IdDesc = 2,
+        StockAsc = 23,
+        StockDesc = 24
     }
 }

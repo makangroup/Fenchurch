@@ -1,0 +1,75 @@
+﻿@using Fenchurch.Web.Areas.Admin.Models.Reports
+@model TrackingReportSearchModel
+@{
+    const string hideSearchBlockAttributeName = "ShipmentsPage.HideSearchBlock";
+    var hideSearchBlock = genericAttributeService.GetAttribute<bool>(workContext.CurrentCustomer, hideSearchBlockAttributeName);
+}
+@{
+    //page title
+    ViewBag.PageTitle = T("Admin.Reports.ReportShipments.Shipments").Text;
+    //active menu item (system name)
+    Html.SetActiveMenuItemSystemName("ReportShipments");
+}
+
+<div class="content-header clearfix">
+    <h1 class="pull-left">
+        @T("Admin.Reports.ReportShipments.Shipments")
+    </h1>
+</div>
+
+<div class="content">
+    <div class="form-horizontal">
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    @await Html.PartialAsync("Table", new DataTablesModel
+                    {
+                       Name = "shipments-grid",
+                       UrlRead = new DataUrl("ReportShipmentList", "Report", null),
+                       SearchButtonId = "search-shipments",
+                       PrimaryKeyColumn = nameof(Fenchurch.Web.Areas.Admin.Models.Reports.TrackingReportItemModel.Id),
+                       Length = Model.PageSize,
+                       LengthMenu = Model.AvailablePageSizes,
+                       ShowPrintButton = true,
+                       Filters = new List<FilterParameter>
+                        {
+                            new FilterParameter(nameof(Model.StartDate), typeof(DateTime?)),
+                            new FilterParameter(nameof(Model.EndDate), typeof(DateTime?)),
+                            new FilterParameter(nameof(Model.TrackingNumber)),
+                            new FilterParameter(nameof(Model.CountryId)),
+                            new FilterParameter(nameof(Model.StateProvinceId)),
+                            new FilterParameter(nameof(Model.County)),
+                            new FilterParameter(nameof(Model.City)),
+                            new FilterParameter(nameof(Model.WarehouseId)),
+                            new FilterParameter(nameof(Model.LoadNotShipped), typeof(bool)),
+                            new FilterParameter(nameof(Model.LoadNotDelivered),typeof(bool))
+                        },
+                       ColumnCollection = new List<ColumnProperty>
+                        {
+                            new ColumnProperty(nameof(TrackingReportItemModel.CustomerName))
+                            {
+                                Title = T("Admin.Orders.ReportShipments.CustomerName").Text
+                            },
+                            new ColumnProperty(nameof(TrackingReportItemModel.Address))
+                            {
+                                Title = T("Admin.Orders.ReportShipments.Address").Text
+                            },
+                            new ColumnProperty(nameof(TrackingReportItemModel.PhoneNumber))
+                            {
+                                Title = T("Admin.Orders.ReportShipments.PhoneNumber").Text
+                            },
+                            new ColumnProperty(nameof(TrackingReportItemModel.TrackingNumber))
+                            {
+                                Title = T("Admin.Orders.ReportShipments.TrackingNumber").Text,
+                            },
+                            new ColumnProperty(nameof(TrackingReportItemModel.Date))
+                            {
+                                Title = T("Admin.Orders.ReportShipments.CreatedOn").Text,
+                            },
+                        },
+                    })
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

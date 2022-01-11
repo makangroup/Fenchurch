@@ -1,22 +1,22 @@
 ﻿
-<div class="header">
-   
+<div class="header" style=" position: fixed;">
+
     @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderBefore })
 
-    <div class="header-upper headerupper masterwrapperpage2" style="width:100%;position:fixed">
+    <div class="header-upper headerupper masterwrapperpage2" style="width:100%;">
         <div class="header-selectors-wrapper">
-            @*<b>Click and collect Available</b>*@
+            <b><a href="/specials-29">Click and collect Available</a></b>
         </div>
         <div class="header-selectors-wrapper">
             <img src="~/icons/delivery-icon-transparent.png" />
             <b>Nationwide Delivery</b>
         </div>
         <div class="header-selectors-wrapper">
-            <b> Call us on <a href="tel:095287044" style="color:blue"> +64 9 528 7044</a></b>
+            <b> Call us on <a href="tel:6495287044" style="color:blue"> +64 9 528 7044</a></b>
         </div>
     </div>
     @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderMiddle })
-    <div class="header-lower masterwrapperpage1" style=" position: fixed;">
+    <div class="header-lower masterwrapperpage1">
         <div class="header-logo">
             @await Component.InvokeAsync("Logo")
         </div>
@@ -30,5 +30,5 @@
     </div>
 
     @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderAfter })
-  
+
 </div>

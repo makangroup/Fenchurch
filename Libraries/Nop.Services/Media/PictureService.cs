@@ -387,7 +387,7 @@ namespace Nop.Services.Media
         /// <param name="imageFormat">Image format</param>
         /// <param name="quality">Quality index that will be used to encode the image</param>
         /// <returns>Image binary data</returns>
-        protected virtual byte[] EncodeImage<TPixel>(Image<TPixel> image, IImageFormat imageFormat, int? quality = null) 
+        protected virtual byte[] EncodeImage<TPixel>(Image<TPixel> image, IImageFormat imageFormat, int? quality = null)
             where TPixel : unmanaged, IPixel<TPixel>
         {
             using var stream = new MemoryStream();
@@ -556,7 +556,9 @@ namespace Nop.Services.Media
             int targetSize = 0,
             bool showDefaultPicture = true,
             string storeLocation = null,
-            PictureType defaultPictureType = PictureType.Entity)
+            PictureType defaultPictureType = PictureType.Entity,
+            bool isProductPicture = false,
+            int pictureId = 0)
         {
             if (picture == null)
                 return showDefaultPicture ? GetDefaultPictureUrl(targetSize, defaultPictureType, storeLocation) : string.Empty;
@@ -596,6 +598,19 @@ namespace Nop.Services.Media
                 thumbFileName = !string.IsNullOrEmpty(seoFileName)
                     ? $"{picture.Id:0000000}_{seoFileName}_{targetSize}.{lastPart}"
                     : $"{picture.Id:0000000}_{targetSize}.{lastPart}";
+            }
+
+            if (isProductPicture)
+            {
+                if (pictureId == 0)
+                    thumbFileName = !string.IsNullOrEmpty(seoFileName)
+                      ? $"{seoFileName}.{lastPart}"
+                      : $"{lastPart}";
+                else
+                    thumbFileName = !string.IsNullOrEmpty(seoFileName)
+                      ? $"{seoFileName}_{pictureId}.{lastPart}"
+                      : $"_{pictureId}.{lastPart}";
+
             }
 
             var thumbFilePath = GetThumbLocalPath(thumbFileName);

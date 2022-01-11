@@ -40,6 +40,7 @@ using Nop.Web.Areas.Admin.Models.Orders;
 using Nop.Web.Areas.Admin.Models.Reports;
 using Nop.Web.Framework.Extensions;
 using Nop.Web.Framework.Models.Extensions;
+using Nop.Services;
 
 namespace Nop.Web.Areas.Admin.Factories
 {
@@ -923,6 +924,24 @@ namespace Nop.Web.Areas.Admin.Factories
 
             searchModel.HideStoresList = _catalogSettings.IgnoreStoreLimitations || searchModel.AvailableStores.SelectionIsNotPossible();
 
+            var statuses = ((OrderStatus)(int)OrderStatus.Cancelled).ToSelectList();
+
+            searchModel.OrderStauses.Add(new OrderStatusModel
+            {
+                Id = default,
+                Name = _localizationService.GetResource("admin.orders.bulkactions")
+            });
+
+            foreach (var item in statuses)
+            {
+                searchModel.OrderStauses.Add(new OrderStatusModel
+                {
+                    Id = Convert.ToInt32(item.Value),
+                    Name = item.Text
+                });
+            }
+
+
             return searchModel;
         }
 
@@ -999,6 +1018,31 @@ namespace Nop.Web.Areas.Admin.Factories
             var filterByProductId = product != null && (_workContext.CurrentVendor == null || product.VendorId == _workContext.CurrentVendor.Id)
                 ? searchModel.ProductId : 0;
 
+            string sortOrder = string.Empty;
+            string sortDirection = string.Empty;
+
+            if (searchModel.order.Any())
+            {
+                int sortColumnNumber = searchModel.order[0].column;
+                sortDirection = searchModel.order[0].dir;
+
+                if (sortColumnNumber == 0 || sortColumnNumber == 1)
+                    sortOrder = "Id";
+                else if (sortColumnNumber == 2)
+                    sortOrder = "OrderStatus";
+                else if (sortColumnNumber == 3)
+                    sortOrder = "PaymentStatus";
+                else if (sortColumnNumber == 4)
+                    sortOrder = "ShippingStatus";
+                else if (sortColumnNumber == 5)
+                    sortOrder = "Email";
+                else if (sortColumnNumber == 7)
+                    sortOrder = "CreatedOn";
+                else if (sortColumnNumber == 8)
+                    sortOrder = "OrderTotal";
+            }
+
+
             //get orders
             var orders = _orderService.SearchOrders(storeId: searchModel.StoreId,
                 vendorId: searchModel.VendorId,
@@ -1015,7 +1059,9 @@ namespace Nop.Web.Areas.Admin.Factories
                 billingLastName: searchModel.BillingLastName,
                 billingCountryId: searchModel.BillingCountryId,
                 orderNotes: searchModel.OrderNotes,
-                pageIndex: searchModel.Page - 1, pageSize: searchModel.PageSize);
+                pageIndex: searchModel.Page - 1, pageSize: searchModel.PageSize,
+                sortColumn: sortOrder,
+                sortDirection: sortDirection);
 
             //prepare list model
             var model = new OrderListModel().PrepareToGrid(searchModel, orders, () =>
@@ -1353,7 +1399,7 @@ namespace Nop.Web.Areas.Admin.Factories
                 throw new ArgumentNullException(nameof(address));
 
             model.OrderId = order.Id;
-           
+
             //prepare address model
             model.Address = address.ToModel(model.Address);
             PrepareAddressModel(model.Address, address);

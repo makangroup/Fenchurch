@@ -4101,10 +4101,7 @@
         },
         "runtime": {
           "bin/placeholder/Nop.Core.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "Nop.Data/4.3.0": {
         "type": "project",
@@ -4123,10 +4120,7 @@
         },
         "runtime": {
           "bin/placeholder/Nop.Data.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       }
     }
   },
@@ -12502,25 +12496,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\swatipatel\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\reyan\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "4.3.0",
     "restore": {
-      "projectUniqueName": "D:\\Makan Work\\Fenchurch\\Libraries\\Nop.Services\\Nop.Services.csproj",
+      "projectUniqueName": "D:\\MakaanGroup Websites\\Fenchurch Server\\fenchurch\\Libraries\\Nop.Services\\Nop.Services.csproj",
       "projectName": "Nop.Services",
-      "projectPath": "D:\\Makan Work\\Fenchurch\\Libraries\\Nop.Services\\Nop.Services.csproj",
-      "packagesPath": "C:\\Users\\swatipatel\\.nuget\\packages\\",
-      "outputPath": "D:\\Makan Work\\Fenchurch\\Libraries\\Nop.Services\\obj\\",
+      "projectPath": "D:\\MakaanGroup Websites\\Fenchurch Server\\fenchurch\\Libraries\\Nop.Services\\Nop.Services.csproj",
+      "packagesPath": "C:\\Users\\reyan\\.nuget\\packages\\",
+      "outputPath": "D:\\MakaanGroup Websites\\Fenchurch Server\\fenchurch\\Libraries\\Nop.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\swatipatel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\reyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -12531,12 +12524,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Makan Work\\Fenchurch\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-              "projectPath": "D:\\Makan Work\\Fenchurch\\Libraries\\Nop.Core\\Nop.Core.csproj"
+            "D:\\MakaanGroup Websites\\Fenchurch Server\\fenchurch\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+              "projectPath": "D:\\MakaanGroup Websites\\Fenchurch Server\\fenchurch\\Libraries\\Nop.Core\\Nop.Core.csproj"
             },
-            "D:\\Makan Work\\Fenchurch\\Libraries\\Nop.Data\\Nop.Data.csproj": {
-              "projectPath": "D:\\Makan Work\\Fenchurch\\Libraries\\Nop.Data\\Nop.Data.csproj"
+            "D:\\MakaanGroup Websites\\Fenchurch Server\\fenchurch\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+              "projectPath": "D:\\MakaanGroup Websites\\Fenchurch Server\\fenchurch\\Libraries\\Nop.Data\\Nop.Data.csproj"
             }
           }
         }
@@ -12549,6 +12543,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "EPPlus": {
             "target": "Package",
@@ -12598,14 +12593,11 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

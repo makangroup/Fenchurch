@@ -7,5 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAaJZM5n+IAkSEHTDLw+imyAAAAAACAAAAAAAQZgAAAAEAACAAAAB2kxkHQbhIguY8QKKWl4zE/iVoZ1NI7BNbC2hnnQ7SegAAAAAOgAAAAAIAACAAAAB1kjka9iyHm+kzCv+UzhQtkk09arpGVM9G1ykS3G9EUoAAAABYS7/cWA/h9jEHqP0+3RQFidfrMv8pVI9mmU2A/N9rtHP/vG50i76sWrZQtBBPzzcHSfu9AVwJnfKenyC25nqF0w1mwzdt0i61h0cKCKDUyXf1giEdOUETXgProGHwLPaspzLkmFxwMSrH/izhQaH6DP4exFhF24s+vIsYeFR5TEAAAAAGp9GUJ5aP4p4AjrDmq6B5JhppI8OQNqSP6SiRrsSDNAUX3r3gl4vyHqzdSPwrAT0DMAYaavjMLdXtEYcGnqzY</EncryptedPassword>
+    <History>True|2021-12-25T17:14:37.1677582Z;True|2021-12-25T12:40:40.5616975+05:30;True|2021-12-15T03:14:29.7409678+05:30;True|2021-12-12T20:21:28.6931328+05:30;True|2021-12-12T18:57:29.4986206+05:30;True|2021-12-11T18:33:44.4202657+05:30;</History>
+    <_PublishTargetUrl>D:\MakaanGroup Websites\PublishedFiles</_PublishTargetUrl>
   </PropertyGroup>
 </Project>

@@ -1,5 +1,6 @@
 ﻿using Nop.Core.Domain.Common;
 using Nop.Core.Infrastructure;
+using System.Collections.Generic;
 
 namespace Nop.Web.Framework.Models
 {
@@ -14,6 +15,7 @@ namespace Nop.Web.Framework.Models
         {
             //set the default values
             Length = 10;
+            order = new List<SortingOrder>();
         }
 
         #endregion
@@ -50,6 +52,8 @@ namespace Nop.Web.Framework.Models
         /// </summary>
         public int Length { get; set; }
 
+        public IList<SortingOrder> order { get; set; }
+
         #endregion
 
         #region Methods
@@ -85,5 +89,11 @@ namespace Nop.Web.Framework.Models
         }
 
         #endregion
+    }
+
+    public partial class SortingOrder
+    {
+        public int column { get; set; }
+        public string dir { get; set; }
     }
 }

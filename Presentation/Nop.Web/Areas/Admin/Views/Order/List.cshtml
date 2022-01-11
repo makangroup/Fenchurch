@@ -1,19 +1,17 @@
 ﻿@model OrderSearchModel
 
+
 @inject IStoreService storeService
+@using Nop.Core.Domain.Orders;
 @using Nop.Services.Stores
 
-@{
-    //page title
+@{ //page title
     ViewBag.PageTitle = T("Admin.Orders").Text;
     //active menu item (system name)
-    Html.SetActiveMenuItemSystemName("Orders");
-}
+    Html.SetActiveMenuItemSystemName("Orders"); }
 
-@{
-    const string hideSearchBlockAttributeName = "OrdersPage.HideSearchBlock";
-    var hideSearchBlock = genericAttributeService.GetAttribute<bool>(workContext.CurrentCustomer, hideSearchBlockAttributeName);
-}
+@{ const string hideSearchBlockAttributeName = "OrdersPage.HideSearchBlock";
+    var hideSearchBlock = genericAttributeService.GetAttribute<bool>(workContext.CurrentCustomer, hideSearchBlockAttributeName); }
 
 <form asp-controller="Order" asp-action="List" method="post">
     <div class="content-header clearfix">
@@ -81,7 +79,7 @@
                 </ul>
             </div>
             <div class="btn-group">
-                <button type="button"  class="btn bg-aqua">
+                <button type="button" class="btn bg-aqua">
                     <i class="fa fa-file-pdf-o"></i>
                     Picklists
                 </button>
@@ -229,8 +227,7 @@
                                             <div class="col-md-8">
                                                 <nop-editor asp-for="BillingPhone" />
                                             </div>
-                                        </div>
-                                    }
+                                        </div>}
                                     <div class="form-group">
                                         <div class="col-md-4">
                                             <nop-label asp-for="BillingEmail" />
@@ -302,18 +299,29 @@
 
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        @{
-                            var gridModel = new DataTablesModel
+                        <div class="row">
+                            <div class="col-md-4 d-flex">
+                                <nop-select asp-for="OrderStatusId" asp-items="@(new SelectList(Model.OrderStauses, "Id", "Name"))" />
+                                <button type="button" id="order-status-bulk" class="btn btn-primary m-l-10">
+                                    Apply
+                                </button>
+                            </div>
+                        </div>
+
+                        @{ var gridModel = new DataTablesModel
                             {
                                 Name = "orders-grid",
                                 UrlRead = new DataUrl("OrderList", "Order", null),
                                 SearchButtonId = "search-orders",
                                 Length = Model.PageSize,
+                                Ordering = true,
+                                SetOrder = true,
+                                Order = "[[7, \"desc\"]]",
                                 LengthMenu = Model.AvailablePageSizes,
                                 FooterCallback = !Model.IsLoggedInAsVendor ? "ordersfootercallback" : null,
                                 FooterColumns = !Model.IsLoggedInAsVendor ? 10 : 0,
                                 Filters = new List<FilterParameter>
-                                                                {
+                                                                                                                                                            {
                                                     new FilterParameter(nameof(Model.StartDate), typeof(DateTime?)),
                                                     new FilterParameter(nameof(Model.EndDate), typeof(DateTime?)),
                                                     new FilterParameter(nameof(Model.OrderStatusIds)),
@@ -332,7 +340,7 @@
                                                 }
                             };
                             gridModel.ColumnCollection = new List<ColumnProperty>
-                                            {
+                                                                                                                                        {
                                 new ColumnProperty(nameof(OrderModel.Id))
                                 {
                                     IsMasterCheckBox = true,
@@ -403,8 +411,7 @@
                                 ClassName = NopColumnClassDefaults.Button,
                                 Render = new RenderButtonView(new DataUrl("Edit"))
                             });
-                            var orderSummaryColumnNumber = 8;
-                        }
+                            var orderSummaryColumnNumber = 8; }
 
                         @await Html.PartialAsync("Table", gridModel)
 
@@ -583,3 +590,28 @@
     });
 </script>
 <nop-alert asp-alert-id="pdfPicklistSelected" />
+
+<form asp-controller="Order" asp-action="ChangeOrderStatusBulkAction" method="post" id="bulk-order-status">
+    <input type="hidden" id="selectedIds" name="selectedIds" value="" />
+    <input type="hidden" id="newOrderStatus" name="OrderStatusId" value="" />
+</form>
+<nop-alert asp-alert-id="changeOrderStatusBulkAction" />
+<script>
+    $(document).ready(function () {
+        $('#order-status-bulk').click(function (e) {
+            e.preventDefault();
+            var ids = selectedIds.join(",");
+            if (!ids) {
+                $('#changeOrderStatusBulkAction-info').text("@T("Admin.Orders.NoOrders")");
+                $("#changeOrderStatusBulkAction").click();
+            }
+            else {
+                $('#bulk-order-status #selectedIds').val(ids);
+                $("#bulk-order-status #newOrderStatus").val($("#OrderStatusId").val());
+                $('#bulk-order-status').submit();
+                updateTable('#orders-grid');
+            }
+            return false;
+        });
+    });
+</script>

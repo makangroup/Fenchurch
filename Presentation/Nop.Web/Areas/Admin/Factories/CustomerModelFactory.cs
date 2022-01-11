@@ -265,39 +265,39 @@ namespace Nop.Web.Areas.Admin.Factories
                         case AttributeControlType.DropdownList:
                         case AttributeControlType.RadioList:
                         case AttributeControlType.Checkboxes:
-                        {
-                            if (!string.IsNullOrEmpty(selectedCustomerAttributes))
                             {
-                                //clear default selection
-                                foreach (var item in attributeModel.Values)
-                                    item.IsPreSelected = false;
-
-                                //select new values
-                                var selectedValues = _customerAttributeParser.ParseCustomerAttributeValues(selectedCustomerAttributes);
-                                foreach (var attributeValue in selectedValues)
+                                if (!string.IsNullOrEmpty(selectedCustomerAttributes))
+                                {
+                                    //clear default selection
                                     foreach (var item in attributeModel.Values)
-                                        if (attributeValue.Id == item.Id)
-                                            item.IsPreSelected = true;
+                                        item.IsPreSelected = false;
+
+                                    //select new values
+                                    var selectedValues = _customerAttributeParser.ParseCustomerAttributeValues(selectedCustomerAttributes);
+                                    foreach (var attributeValue in selectedValues)
+                                        foreach (var item in attributeModel.Values)
+                                            if (attributeValue.Id == item.Id)
+                                                item.IsPreSelected = true;
+                                }
                             }
-                        }
-                        break;
+                            break;
                         case AttributeControlType.ReadonlyCheckboxes:
-                        {
-                            //do nothing
-                            //values are already pre-set
-                        }
-                        break;
+                            {
+                                //do nothing
+                                //values are already pre-set
+                            }
+                            break;
                         case AttributeControlType.TextBox:
                         case AttributeControlType.MultilineTextbox:
-                        {
-                            if (!string.IsNullOrEmpty(selectedCustomerAttributes))
                             {
-                                var enteredText = _customerAttributeParser.ParseValues(selectedCustomerAttributes, attribute.Id);
-                                if (enteredText.Any())
-                                    attributeModel.DefaultValue = enteredText[0];
+                                if (!string.IsNullOrEmpty(selectedCustomerAttributes))
+                                {
+                                    var enteredText = _customerAttributeParser.ParseValues(selectedCustomerAttributes, attribute.Id);
+                                    if (enteredText.Any())
+                                        attributeModel.DefaultValue = enteredText[0];
+                                }
                             }
-                        }
-                        break;
+                            break;
                         case AttributeControlType.Datepicker:
                         case AttributeControlType.ColorSquares:
                         case AttributeControlType.ImageSquares:
@@ -569,7 +569,7 @@ namespace Nop.Web.Areas.Admin.Factories
 
             return searchModel;
         }
-        
+
         #endregion
 
         #region Methods
@@ -621,6 +621,34 @@ namespace Nop.Web.Areas.Admin.Factories
             int.TryParse(searchModel.SearchDayOfBirth, out var dayOfBirth);
             int.TryParse(searchModel.SearchMonthOfBirth, out var monthOfBirth);
 
+            string sortOrder = string.Empty;
+            string sortDirection = string.Empty;
+
+            if (searchModel.order.Any())
+            {
+                int sortColumnNumber = searchModel.order[0].column;
+                sortDirection = searchModel.order[0].dir;
+
+                if (sortColumnNumber == 0)
+                    sortOrder = "Id";
+                else if (sortColumnNumber == 1)
+                    sortOrder = "Email";
+                else if (sortColumnNumber == 3)
+                    sortOrder = "Name";
+                else if (sortColumnNumber == 4)
+                    sortOrder = "Roles";
+                else if (sortColumnNumber == 5)
+                    sortOrder = "Phone";
+                else if (sortColumnNumber == 6)
+                    sortOrder = "Zip";
+                else if (sortColumnNumber == 7)
+                    sortOrder = "Status";
+                else if (sortColumnNumber == 9)
+                    sortOrder = "CreatedOn";
+                else if (sortColumnNumber == 10)
+                    sortOrder = "LastActivity";
+            }
+
             //get customers
             var customers = _customerService.GetAllCustomers(customerRoleIds: searchModel.SelectedCustomerRoleIds.ToArray(),
                 email: searchModel.SearchEmail,
@@ -633,7 +661,8 @@ namespace Nop.Web.Areas.Admin.Factories
                 phone: searchModel.SearchPhone,
                 zipPostalCode: searchModel.SearchZipPostalCode,
                 ipAddress: searchModel.SearchIpAddress,
-                pageIndex: searchModel.Page - 1, pageSize: searchModel.PageSize);
+                pageIndex: searchModel.Page - 1, pageSize: searchModel.PageSize,
+                sortColumn: sortOrder, sortDirection: sortDirection);
 
             //prepare list model
             var model = new CustomerListModel().PrepareToGrid(searchModel, customers, () =>
@@ -791,7 +820,7 @@ namespace Nop.Web.Areas.Admin.Factories
                         .FirstOrDefault(store => store.Id == customer.RegisteredInStoreId)?.Name ?? string.Empty;
                     model.DisplayRegisteredInStore = model.Id > 0 && !string.IsNullOrEmpty(model.RegisteredInStore) &&
                         _storeService.GetAllStores().Select(x => x.Id).Count() > 1;
-                   
+
                     //prepare model affiliate
                     var affiliate = _affiliateService.GetAffiliateById(customer.AffiliateId);
                     if (affiliate != null)
@@ -830,8 +859,8 @@ namespace Nop.Web.Areas.Admin.Factories
 
                     avatarPictureId = _genericAttributeService.GetAttribute<int>(customer, NopCustomerDefaults.Avatar2PictureIdAttribute);
                     if (avatarPictureId != 0)
-                    model.Avatar2Url = _pictureService.GetPictureUrl(avatarPictureId, 0,
-                        _customerSettings.DefaultAvatarEnabled);
+                        model.Avatar2Url = _pictureService.GetPictureUrl(avatarPictureId, 0,
+                            _customerSettings.DefaultAvatarEnabled);
                 }
             }
             else
@@ -1145,7 +1174,7 @@ namespace Nop.Web.Areas.Admin.Factories
 
             //prepare list model
             var model = new CustomerActivityLogListModel().PrepareToGrid(searchModel, pageList, () => pageList);
-            
+
             return model;
         }
 

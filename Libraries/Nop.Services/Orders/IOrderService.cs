@@ -87,13 +87,13 @@ namespace Nop.Services.Orders
             DateTime? createdFromUtc = null, DateTime? createdToUtc = null,
             List<int> osIds = null, List<int> psIds = null, List<int> ssIds = null,
             string billingPhone = null, string billingEmail = null, string billingLastName = "",
-            string orderNotes = null, int pageIndex = 0, int pageSize = int.MaxValue, bool getOnlyTotalCount = false);
+            string orderNotes = null, int pageIndex = 0, int pageSize = int.MaxValue, bool getOnlyTotalCount = false, string sortColumn = null, string sortDirection = null);
 
 
-        public IPagedList<Order> SearchOverDueOrders(DateTime? createdFromUtc = null, 
-                                                     DateTime? createdToUtc = null, 
-                                                     int pageIndex = 0, 
-                                                     int pageSize = int.MaxValue, 
+        public IPagedList<Order> SearchOverDueOrders(DateTime? createdFromUtc = null,
+                                                     DateTime? createdToUtc = null,
+                                                     int pageIndex = 0,
+                                                     int pageSize = int.MaxValue,
                                                      bool getOnlyTotalCount = false);
 
         /// <summary>

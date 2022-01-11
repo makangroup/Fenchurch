@@ -1,4 +1,5 @@
-﻿using Nop.Web.Areas.Admin.Models.Reports;
+﻿using Fenchurch.Web.Areas.Admin.Models.Reports;
+using Nop.Web.Areas.Admin.Models.Reports;
 
 namespace Nop.Web.Areas.Admin.Factories
 {
@@ -109,6 +110,12 @@ namespace Nop.Web.Areas.Admin.Factories
         /// <returns>Registered customers report list model</returns>
         RegisteredCustomersReportListModel PrepareRegisteredCustomersReportListModel(RegisteredCustomersReportSearchModel searchModel);
 
+        #endregion
+
+        #region Tracking reports
+        TrackingReportSearchModel PrepareTrackingSearchModel(TrackingReportSearchModel searchModel);
+
+        TrackingReportListItemModel PrepareTrackingReportListModel(TrackingReportSearchModel searchModel);
         #endregion
     }
 }

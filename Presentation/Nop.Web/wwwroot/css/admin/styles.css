@@ -1861,3 +1861,10 @@ div.dataTables_wrapper div.dataTables_paginate{
     float: none;
   }
 }
+.d-flex {
+    display: flex;
+}
+
+.m-l-10 {
+    margin-left: 10px;
+}

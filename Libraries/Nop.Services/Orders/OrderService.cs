@@ -214,7 +214,8 @@ namespace Nop.Services.Orders
             DateTime? createdFromUtc = null, DateTime? createdToUtc = null,
             List<int> osIds = null, List<int> psIds = null, List<int> ssIds = null,
             string billingPhone = null, string billingEmail = null, string billingLastName = "",
-            string orderNotes = null, int pageIndex = 0, int pageSize = int.MaxValue, bool getOnlyTotalCount = false)
+            string orderNotes = null, int pageIndex = 0, int pageSize = int.MaxValue, bool getOnlyTotalCount = false,
+            string sortColumn = null, string sortDirection = null)
         {
             var query = _orderRepository.Table;
 
@@ -223,36 +224,36 @@ namespace Nop.Services.Orders
 
             if (vendorId > 0)
                 query = from o in query
-                    join oi in _orderItemRepository.Table on o.Id equals oi.OrderId
-                    join p in _productRepository.Table on oi.ProductId equals p.Id
-                    where p.VendorId == vendorId
-                    select o;
+                        join oi in _orderItemRepository.Table on o.Id equals oi.OrderId
+                        join p in _productRepository.Table on oi.ProductId equals p.Id
+                        where p.VendorId == vendorId
+                        select o;
 
             if (customerId > 0)
                 query = query.Where(o => o.CustomerId == customerId);
 
             if (productId > 0)
                 query = from o in query
-                    join oi in _orderItemRepository.Table on o.Id equals oi.OrderId
-                    where oi.ProductId == productId
-                    select o;
+                        join oi in _orderItemRepository.Table on o.Id equals oi.OrderId
+                        where oi.ProductId == productId
+                        select o;
 
             if (warehouseId > 0)
             {
                 var manageStockInventoryMethodId = (int)ManageInventoryMethod.ManageStock;
 
                 query = from o in query
-                    join oi in _orderItemRepository.Table on o.Id equals oi.OrderId
-                    join p in _productRepository.Table on oi.ProductId equals p.Id
-                    join pwi in _productWarehouseInventoryRepository.Table on p.Id equals pwi.ProductId
-                    where
-                        //"Use multiple warehouses" enabled
-                        //we search in each warehouse
-                        (p.ManageInventoryMethodId == manageStockInventoryMethodId && p.UseMultipleWarehouses && pwi.WarehouseId == warehouseId) ||
-                        //"Use multiple warehouses" disabled
-                        //we use standard "warehouse" property
-                        ((p.ManageInventoryMethodId != manageStockInventoryMethodId || !p.UseMultipleWarehouses) && p.WarehouseId == warehouseId)
-                    select o;
+                        join oi in _orderItemRepository.Table on o.Id equals oi.OrderId
+                        join p in _productRepository.Table on oi.ProductId equals p.Id
+                        join pwi in _productWarehouseInventoryRepository.Table on p.Id equals pwi.ProductId
+                        where
+                            //"Use multiple warehouses" enabled
+                            //we search in each warehouse
+                            (p.ManageInventoryMethodId == manageStockInventoryMethodId && p.UseMultipleWarehouses && pwi.WarehouseId == warehouseId) ||
+                            //"Use multiple warehouses" disabled
+                            //we use standard "warehouse" property
+                            ((p.ManageInventoryMethodId != manageStockInventoryMethodId || !p.UseMultipleWarehouses) && p.WarehouseId == warehouseId)
+                        select o;
             }
 
             if (!string.IsNullOrEmpty(paymentMethodSystemName))
@@ -280,16 +281,83 @@ namespace Nop.Services.Orders
                 query = query.Where(o => _orderNoteRepository.Table.Any(oNote => oNote.OrderId == o.Id && oNote.Note.Contains(orderNotes)));
 
             query = from o in query
-                join oba in _addressRepository.Table on o.BillingAddressId equals oba.Id
-                where
-                    (billingCountryId <= 0 || (oba.CountryId == billingCountryId)) &&
-                    (string.IsNullOrEmpty(billingPhone) || (!string.IsNullOrEmpty(oba.PhoneNumber) && oba.PhoneNumber.Contains(billingPhone))) &&
-                    (string.IsNullOrEmpty(billingEmail) || (!string.IsNullOrEmpty(oba.Email) && oba.Email.Contains(billingEmail))) &&
-                    (string.IsNullOrEmpty(billingLastName) || (!string.IsNullOrEmpty(oba.LastName) && oba.LastName.Contains(billingLastName)))
-                select o;
+                    join oba in _addressRepository.Table on o.BillingAddressId equals oba.Id
+                    where
+                        (billingCountryId <= 0 || (oba.CountryId == billingCountryId)) &&
+                        (string.IsNullOrEmpty(billingPhone) || (!string.IsNullOrEmpty(oba.PhoneNumber) && oba.PhoneNumber.Contains(billingPhone))) &&
+                        (string.IsNullOrEmpty(billingEmail) || (!string.IsNullOrEmpty(oba.Email) && oba.Email.Contains(billingEmail))) &&
+                        (string.IsNullOrEmpty(billingLastName) || (!string.IsNullOrEmpty(oba.LastName) && oba.LastName.Contains(billingLastName)))
+                    select o;
+
+
+            //Sorting logic
+            if (!string.IsNullOrEmpty(sortColumn) && !string.IsNullOrEmpty(sortDirection))
+            {
+                if (sortColumn == "Id")
+                {
+                    if (sortDirection == "asc")
+                        query = query.OrderBy(c => c.Id);
+                    else
+                        query = query.OrderByDescending(c => c.Id);
+                }
+                else if (sortColumn == "OrderStatus")
+                {
+                    if (sortDirection == "asc")
+                        query = query.OrderBy(c => c.OrderStatusId);
+                    else
+                        query = query.OrderByDescending(c => c.OrderStatusId);
+                }
+                else if (sortColumn == "PaymentStatus")
+                {
+                    if (sortDirection == "asc")
+                        query = query.OrderBy(c => c.PaymentStatusId);
+                    else
+                        query = query.OrderByDescending(c => c.PaymentStatusId);
+                }
+                else if (sortColumn == "ShippingStatus")
+                {
+                    if (sortDirection == "asc")
+                        query = query.OrderBy(c => c.ShippingStatusId);
+                    else
+                        query = query.OrderByDescending(c => c.ShippingStatusId);
+                }
+                else if (sortColumn == "Email")
+                {
+                    if (sortDirection == "asc")
+                    {
+                        query = from o in query
+                                join oba in _addressRepository.Table on o.BillingAddressId equals oba.Id
+                                orderby oba.Email
+                                select o;
+                    }
+                    else
+                    {
+                        query = from o in query
+                                join oba in _addressRepository.Table on o.BillingAddressId equals oba.Id
+                                orderby oba.Email descending
+                                select o;
+                    }
+                }
+                else if (sortColumn == "CreatedOn")
+                {
+                    if (sortDirection == "asc")
+                        query = query.OrderBy(c => c.CreatedOnUtc);
+                    else
+                        query = query.OrderByDescending(c => c.CreatedOnUtc);
+                }
+                else if (sortColumn == "OrderTotal")
+                {
+                    if (sortDirection == "asc")
+                        query = query.OrderBy(c => c.OrderTotal);
+                    else
+                        query = query.OrderByDescending(c => c.OrderTotal);
+                }
+            }
+            else
+                query = query.OrderByDescending(o => o.CreatedOnUtc);
 
             query = query.Where(o => !o.Deleted);
-            query = query.OrderByDescending(o => o.CreatedOnUtc);
+
 
             //database layer paging
             return new PagedList<Order>(query, pageIndex, pageSize, getOnlyTotalCount);
@@ -586,10 +654,10 @@ namespace Nop.Services.Orders
             if (orderIds == null || orderIds.Length == 0)
                 throw new ArgumentException();
 
-            var query = from order in _orderRepository.Table 
+            var query = from order in _orderRepository.Table
                         join id in orderIds
                         on order.Id equals id
-                        where (order.CustomerId == customer.Id 
+                        where (order.CustomerId == customer.Id
                         && order.PaymentStatusId == (int)PaymentStatus.Credit)
                         select order;
 

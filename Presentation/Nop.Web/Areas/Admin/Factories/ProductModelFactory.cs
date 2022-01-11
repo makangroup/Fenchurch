@@ -340,9 +340,9 @@ namespace Nop.Web.Areas.Admin.Factories
                                         _productAttributeParser.ParseProductAttributeValues(productAttributeMapping
                                             .ConditionAttributeXml);
                                     foreach (var attributeValue in selectedValues)
-                                    foreach (var item in attributeModel.Values)
-                                        if (attributeValue.Id == item.Id)
-                                            item.IsPreSelected = true;
+                                        foreach (var item in attributeModel.Values)
+                                            if (attributeValue.Id == item.Id)
+                                                item.IsPreSelected = true;
                                 }
 
                                 break;
@@ -693,8 +693,67 @@ namespace Nop.Web.Areas.Admin.Factories
                 categoryIds.AddRange(childCategoryIds);
             }
 
+            ProductSortingEnum orderBy = ProductSortingEnum.IdDesc;
+
+            if (searchModel.order.Any())
+            {
+                int sortColumnNumber = searchModel.order[0].column;
+                string sortDirection = searchModel.order[0].dir;
+
+                if (sortColumnNumber == 0)
+                {
+                    if (sortDirection == "asc")
+                        orderBy = ProductSortingEnum.IdAsc;
+                    else
+                        orderBy = ProductSortingEnum.IdDesc;
+                }
+                else if (sortColumnNumber == 2)
+                {
+                    if (sortDirection == "asc")
+                        orderBy = ProductSortingEnum.NameAsc;
+                    else
+                        orderBy = ProductSortingEnum.NameDesc;
+                }
+                else if (sortColumnNumber == 3)
+                {
+                    if (sortDirection == "asc")
+                        orderBy = ProductSortingEnum.SkuAsc;
+                    else
+                        orderBy = ProductSortingEnum.SkuDesc;
+                }
+                else if (sortColumnNumber == 4)
+                {
+                    if (sortDirection == "asc")
+                        orderBy = ProductSortingEnum.PriceAsc;
+                    else
+                        orderBy = ProductSortingEnum.PriceDesc;
+                }
+                else if (sortColumnNumber == 5)
+                {
+                    if (sortDirection == "asc")
+                        orderBy = ProductSortingEnum.StockAsc;
+                    else
+                        orderBy = ProductSortingEnum.StockDesc;
+                }
+                else if (sortColumnNumber == 6)
+                {
+                    if (sortDirection == "asc")
+                        orderBy = ProductSortingEnum.ProductTypeAsc;
+                    else
+                        orderBy = ProductSortingEnum.ProductTypeDesc;
+                }
+                else if (sortColumnNumber == 7)
+                {
+                    if (sortDirection == "asc")
+                        orderBy = ProductSortingEnum.PublishedAsc;
+                    else
+                        orderBy = ProductSortingEnum.PublishedDesc;
+                }
+            }
+
             //get products
             var products = _productService.SearchProducts(showHidden: true,
+                orderBy: orderBy,
                 categoryIds: categoryIds,
                 manufacturerId: searchModel.SearchManufacturerId,
                 storeId: searchModel.SearchStoreId,
@@ -918,7 +977,7 @@ namespace Nop.Web.Areas.Admin.Factories
                 productTagsSb.Append("'");
                 productTagsSb.Append(JavaScriptEncoder.Default.Encode(tag.Name));
                 productTagsSb.Append("'");
-                if (i != productTags.Count - 1) 
+                if (i != productTags.Count - 1)
                     productTagsSb.Append(",");
             }
             productTagsSb.Append("]");
@@ -1552,7 +1611,7 @@ namespace Nop.Web.Areas.Admin.Factories
                 throw new ArgumentNullException(nameof(searchModel));
 
             //get product tags
-            var productTags = _productTagService.GetAllProductTags(tagName : searchModel.SearchTagName)
+            var productTags = _productTagService.GetAllProductTags(tagName: searchModel.SearchTagName)
                 .OrderByDescending(tag => _productTagService.GetProductCount(tag.Id, storeId: 0, showHidden: true)).ToList()
                 .ToPagedList(searchModel);
 
@@ -1935,7 +1994,7 @@ namespace Nop.Web.Areas.Admin.Factories
                 {
                     //fill in model values from the entity
                     var productAttributeValueModel = value.ToModel<ProductAttributeValueModel>();
-                    
+
                     //fill in additional values (not existing in the entity)
                     productAttributeValueModel.AttributeValueTypeName = _localizationService.GetLocalizedEnum(value.AttributeValueType);
                     productAttributeValueModel.Name = productAttributeMapping.AttributeControlType != AttributeControlType.ColorSquares
@@ -2152,7 +2211,7 @@ namespace Nop.Web.Areas.Admin.Factories
                     //little hack here. Grid is rendered wrong way with <img> without "src" attribute
                     if (string.IsNullOrEmpty(pictureThumbnailUrl))
                         pictureThumbnailUrl = _pictureService.GetDefaultPictureUrl(targetSize: 1);
-                        
+
                     productAttributeCombinationModel.PictureThumbnailUrl = pictureThumbnailUrl;
                     var warnings = _shoppingCartService.GetShoppingCartItemAttributeWarnings(_workContext.CurrentCustomer,
                         ShoppingCartType.ShoppingCart, product,

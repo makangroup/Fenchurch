@@ -3,3 +3,17 @@
 ################################################################################
 
 /Build/src/ClearPluginAssemblies/obj
+/Nop.Services.Test/obj
+/Presentation/Nop.Web/Plugins
+/Libraries/Nop.Core/bin
+/Libraries/Nop.Core/obj
+/Libraries/Nop.Data/bin
+/Libraries/Nop.Data/obj
+/Libraries/Nop.Services/obj
+/Libraries/Nop.Services/bin
+/Plugins
+/Presentation/Nop.Web/bin
+/Presentation/Nop.Web/obj
+/Presentation/Nop.Web.Framework/bin
+/Presentation/Nop.Web.Framework/obj
+/Tests

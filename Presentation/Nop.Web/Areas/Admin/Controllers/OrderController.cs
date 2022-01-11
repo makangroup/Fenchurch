@@ -159,7 +159,7 @@ namespace Nop.Web.Areas.Admin.Controllers
 
             return hasVendorProducts;
         }
-        
+
         protected virtual bool HasAccessToProduct(OrderItem orderItem)
         {
             if (orderItem == null || orderItem.ProductId == 0)
@@ -173,7 +173,7 @@ namespace Nop.Web.Areas.Admin.Controllers
 
             return _productService.GetProductById(orderItem.ProductId)?.VendorId == vendorId;
         }
-        
+
         protected virtual bool HasAccessToShipment(Shipment shipment)
         {
             if (shipment == null)
@@ -938,6 +938,61 @@ namespace Nop.Web.Areas.Admin.Controllers
             }
         }
 
+        [HttpPost]
+        public virtual IActionResult ChangeOrderStatusBulkAction(OrderModel model, string selectedIds)
+        {
+            if (!_permissionService.Authorize(StandardPermissionProvider.ManageOrders))
+                return AccessDeniedView();
+
+            if (model.OrderStatusId == default)
+                return RedirectToAction("List");
+
+            var orders = new List<Order>();
+            if (selectedIds != null)
+            {
+                var ids = selectedIds
+                    .Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
+                    .Select(x => Convert.ToInt32(x))
+                    .ToArray();
+                orders.AddRange(_orderService.GetOrdersByIds(ids));
+            }
+
+            //a vendor does not have access to this functionality
+            if (_workContext.CurrentVendor != null)
+                return Json(new { Result = true });
+
+
+            foreach (var order in orders)
+            {
+                try
+                {
+                    order.OrderStatusId = model.OrderStatusId;
+                    _orderService.UpdateOrder(order);
+
+                    //add a note
+                    _orderService.InsertOrderNote(new OrderNote
+                    {
+                        OrderId = order.Id,
+                        Note = $"Order status has been edited. New status: {_localizationService.GetLocalizedEnum(order.OrderStatus)}",
+                        DisplayToCustomer = false,
+                        CreatedOnUtc = DateTime.UtcNow
+                    });
+
+                    LogEditOrder(order.Id);
+
+                    //prepare model
+                    model = _orderModelFactory.PrepareOrderModel(model, order);
+                }
+                catch (Exception exc)
+                {
+                    _notificationService.ErrorNotification(exc);
+                    return Json(new { Result = true });
+                }
+            }
+
+            return Json(new { Result = true });
+        }
+
         #endregion
 
         #region Edit, delete
@@ -1005,7 +1060,7 @@ namespace Nop.Web.Areas.Admin.Controllers
             }
 
             byte[] bytes;
-            using(MemoryStream stream = new MemoryStream())
+            using (MemoryStream stream = new MemoryStream())
             {
                 _pdfService.PrintPicklistToPdf(stream, orders, _orderSettings.GeneratePdfInvoiceInCustomerLanguage ? 0 : _workContext.WorkingLanguage.Id, vendorId);
                 bytes = stream.ToArray();
@@ -1235,7 +1290,7 @@ namespace Nop.Web.Areas.Admin.Controllers
                 return RedirectToAction("List");
             }
         }
-      
+
 
         [HttpPost]
         public virtual IActionResult PdfInvoiceSelected(string selectedIds)
@@ -1957,7 +2012,7 @@ namespace Nop.Web.Areas.Admin.Controllers
                     RentalEndDateUtc = rentalEndDate
                 };
 
-                _orderService.InsertOrderItem(orderItem);                
+                _orderService.InsertOrderItem(orderItem);
 
                 //adjust inventory
                 _productService.AdjustInventory(product, -orderItem.Quantity, orderItem.AttributesXml,
@@ -2334,14 +2389,14 @@ namespace Nop.Web.Areas.Admin.Controllers
                     CreatedOnUtc = DateTime.UtcNow
                 });
 
-                if(model.CanShip)
+                if (model.CanShip)
                     _orderProcessingService.Ship(shipment, true);
 
-                if(model.CanShip && model.CanDeliver)
+                if (model.CanShip && model.CanDeliver)
                     _orderProcessingService.Deliver(shipment, true);
 
                 LogEditOrder(order.Id);
-                
+
                 _notificationService.SuccessNotification(_localizationService.GetResource("Admin.Orders.Shipments.Added"));
                 return continueEditing
                         ? RedirectToAction("ShipmentDetails", new { id = shipment.Id })
@@ -2387,7 +2442,7 @@ namespace Nop.Web.Areas.Admin.Controllers
             //a vendor should have access only to his products
             if (_workContext.CurrentVendor != null && !HasAccessToShipment(shipment))
                 return RedirectToAction("List");
-            
+
             foreach (var shipmentItem in _shipmentService.GetShipmentItemsByShipmentId(shipment.Id))
             {
                 var orderItem = _orderService.GetOrderItemById(shipmentItem.OrderItemId);
@@ -2619,8 +2674,8 @@ namespace Nop.Web.Areas.Admin.Controllers
                 _pdfService.PrintShippingSlipsToPdf(stream, shipments, _orderSettings.GeneratePdfInvoiceInCustomerLanguage ? 0 : _workContext.WorkingLanguage.Id);
                 bytes = stream.ToArray();
             }
-          
-            return File(bytes,  MimeTypes.ApplicationPdf, $"shippingslip_{shipment.Id}.pdf");
+
+            return File(bytes, MimeTypes.ApplicationPdf, $"shippingslip_{shipment.Id}.pdf");
         }
 
         public virtual IActionResult PdfPackagingSlip(int shipmentId)

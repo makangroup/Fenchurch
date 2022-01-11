@@ -25,7 +25,7 @@
 
     //Kendo UI
     var kendoVersion = "2020.1.406";
-    
+
     var currentKendoCulture = EngineContext.Current.Resolve<IWorkContext>().WorkingLanguage.LanguageCulture;
     var currentCulture = CultureInfo.CurrentCulture;
 
@@ -33,7 +33,7 @@
     string GetDefaultLocale()
     {
         var localePattern = NopCommonDefaults.LocalePatternPath;
-        
+
         var cultureToUse = NopCommonDefaults.DefaultLocalePattern; //Default regionalisation to use
 
         if (fileProvider.DirectoryExists(fileProvider.Combine(WebHostEnvironment.WebRootPath, string.Format(localePattern, currentCulture.Name))))
@@ -57,7 +57,7 @@
     }
     else
     {
-        Html.AppendCssFileParts("~/css/admin/styles.css");
+        Html.AppendCssFileParts("~/css/admin/styles.css?ver=1.1");
         Html.AppendCssFileParts("~/lib/adminLTE/css/AdminLTE.min.css");
         Html.AppendCssFileParts("~/lib/bootstrap/css/bootstrap.min.css");
     }
@@ -79,10 +79,12 @@
     //scripts
     Html.AppendScriptParts($"~/lib/datatables/buttons.bootstrap.min.js");
     Html.AppendScriptParts($"~/lib/datatables/dataTables.buttons.min.js");
+    Html.AppendScriptParts($"~/lib/datatables/buttons.print.min.js");
     Html.AppendScriptParts($"~/lib/datatables/moment-with-locales-2.22.2.min.js");
     Html.AppendScriptParts($"~/lib/datatables/datatables.min.js");
     Html.AppendScriptParts($"~/lib/datatables/js/dataTables.bootstrap.min.js");
     Html.AppendScriptParts($"~/lib/datatables/js/jquery.dataTables.min.js");
+
     Html.AppendScriptParts($"~/lib/kendo/{kendoVersion}/js/cultures/kendo.culture.{currentKendoCulture}.min.js");
     Html.AppendScriptParts($"~/lib/kendo/{kendoVersion}/js/messages/kendo.messages.{currentKendoCulture}.min.js");
     Html.AppendScriptParts($"~/lib/kendo/{kendoVersion}/js/kendo.ui.core.min.js");
@@ -94,8 +96,8 @@
     Html.AppendScriptParts("~/lib/jquery-migrate/jquery-migrate-3.1.0.min.js");
     Html.AppendScriptParts($"~/lib/jquery-ui/jquery-ui-{jQueryUI}/jquery-ui-{jQueryUI}.custom.min.js");
 
-    // this file can be downloaded from : 
-    // https://github.com/johnnyreilly/jquery-validation-globalize 
+    // this file can be downloaded from :
+    // https://github.com/johnnyreilly/jquery-validation-globalize
     //Html.AppendScriptParts("https://cdn.jsdelivr.net/gh/johnnyreilly/jquery-validation-globalize@1.0.0/jquery.validate.globalize.min.js");
     Html.AppendScriptParts("~/lib/jquery-validate/jquery.validate.globalize-1.0.0.min.js");
 
@@ -105,7 +107,7 @@
     Html.AppendScriptParts("~/lib/globalize/dist/globalize/number.min.js");
     Html.AppendScriptParts("~/lib/globalize/dist/globalize.min.js");
 
-    // cldr scripts (needed for globalize)    
+    // cldr scripts (needed for globalize)
     Html.AppendScriptParts("~/lib/cldr/dist/cldr/supplemental.min.js");
     Html.AppendScriptParts("~/lib/cldr/dist/cldr/event.min.js");
     Html.AppendScriptParts("~/lib/cldr/dist/cldr.min.js");
@@ -133,24 +135,24 @@
     //info: we specify "Admin" area for actions and widgets here for cases when we use this layout in a plugin that is running in a different area than "admin"
 }
 <!DOCTYPE html>
-<html lang="@languageService.GetTwoLetterIsoLanguageName(workContext.WorkingLanguage)"@(supportRtl ? Html.Raw(" dir=\"rtl\"") : null)>
-    <head>
-        <title>@adminPageTitle</title>
-        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        @*Google Font*@
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-        <script>
+<html lang="@languageService.GetTwoLetterIsoLanguageName(workContext.WorkingLanguage)" @(supportRtl ? Html.Raw(" dir=\"rtl\"") : null)>
+<head>
+    <title>@adminPageTitle</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    @*Google Font*@
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    <script>
             var rootAppPath = '@(Url.Content("~/"))';
-        </script>
-        @Html.NopHeadCustom()
-        @Html.NopCssFiles(ResourceLocation.Head, false)
-        @Html.NopScripts(ResourceLocation.Head, false)
-        @*Insert favicon and app icons head code*@
-        @await Component.InvokeAsync("Favicon")
-    </head>
-    <body class="hold-transition skin-blue sidebar-mini">
-        <script type="text/javascript">
+    </script>
+    @Html.NopHeadCustom()
+    @Html.NopCssFiles(ResourceLocation.Head, false)
+    @Html.NopScripts(ResourceLocation.Head, false)
+    @*Insert favicon and app icons head code*@
+    @await Component.InvokeAsync("Favicon")
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+    <script type="text/javascript">
             var culture = "@GetDefaultLocale()";
 
             //load cldr for current culture
@@ -171,183 +173,183 @@
             }).then(Globalize.load).then(function () {
                 Globalize.locale(culture);
             });
-        </script>
-        <script>
-            kendo.culture("@(currentKendoCulture)");            
-        </script>
-        <div class="throbber">
-            <div class="curtain">
-            </div>
-            <div class="curtain-content">
-                <div>
-                    <h1 class="throbber-header">@T("Common.Wait...")</h1>
-                    <p>
-                        <img src="@Url.Content("~/css/admin/images/throbber-synchronizing.gif")" alt="" />
-                    </p>
-                </div>
+    </script>
+    <script>
+            kendo.culture("@(currentKendoCulture)");
+    </script>
+    <div class="throbber">
+        <div class="curtain">
+        </div>
+        <div class="curtain-content">
+            <div>
+                <h1 class="throbber-header">@T("Common.Wait...")</h1>
+                <p>
+                    <img src="@Url.Content("~/css/admin/images/throbber-synchronizing.gif")" alt="" />
+                </p>
             </div>
         </div>
-        <div id="ajaxBusy">
-            <span>&nbsp;</span>
-        </div>
-        <div class="wrapper">
-            @if (IsSectionDefined("header"))
-            {
-                @RenderSection("header")
-            }
-            else
-            {
-                @await Component.InvokeAsync("AdminWidget", new { widgetZone = AdminWidgetZones.HeaderBefore })
-                <div class="main-header">
-                    <a href="@Url.Content("~/Admin")" class="logo">
-                        <!-- mini logo for sidebar mini 50x50 pixels -->
-                        <span class="logo-mini"></span>
-                        <!-- logo for regular state and mobile devices -->
-                        <span class="logo-lg"></span>
+    </div>
+    <div id="ajaxBusy">
+        <span>&nbsp;</span>
+    </div>
+    <div class="wrapper">
+        @if (IsSectionDefined("header"))
+        {
+            @RenderSection("header")
+        }
+        else
+        {
+            @await Component.InvokeAsync("AdminWidget", new { widgetZone = AdminWidgetZones.HeaderBefore })
+            <div class="main-header">
+                <a href="@Url.Content("~/Admin")" class="logo">
+                    <!-- mini logo for sidebar mini 50x50 pixels -->
+                    <span class="logo-mini"></span>
+                    <!-- logo for regular state and mobile devices -->
+                    <span class="logo-lg"></span>
+                </a>
+                <div class="navbar navbar-static-top" role="navigation">
+                    <a href="#" id="nopSideBarPusher" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                        <span class="sr-only">&nbsp;</span>
                     </a>
-                    <div class="navbar navbar-static-top" role="navigation">
-                        <a href="#" id="nopSideBarPusher" class="sidebar-toggle" data-toggle="push-menu" role="button">
-                            <span class="sr-only">&nbsp;</span>
-                        </a>
-                        @await Component.InvokeAsync("AdminWidget", new { widgetZone = AdminWidgetZones.HeaderToggleAfter })
-                        <div class="navbar-custom-menu">
-                            @await Component.InvokeAsync("AdminWidget", new { widgetZone = AdminWidgetZones.HeaderNavbarBefore })
-                            <ul class="nav navbar-nav">
-                                <li>
-                                    @await Component.InvokeAsync("AdminLanguageSelector")
-                                </li>
-                                @if (customerService.IsRegistered(currentCustomer))
-                                {
-                                    <li class="account-info">
-                                        @customerService.GetCustomerFullName(currentCustomer)
-                                    </li>
-                                    <li>
-                                        <a asp-controller="Customer" asp-action="Logout" asp-area="">@T("Admin.Header.Logout")</a>
-                                    </li>
-                                }
-                                <li>
-                                    @await Component.InvokeAsync("AdminWidget", new { widgetZone = AdminWidgetZones.HeaderMiddle })
+                    @await Component.InvokeAsync("AdminWidget", new { widgetZone = AdminWidgetZones.HeaderToggleAfter })
+                    <div class="navbar-custom-menu">
+                        @await Component.InvokeAsync("AdminWidget", new { widgetZone = AdminWidgetZones.HeaderNavbarBefore })
+                        <ul class="nav navbar-nav">
+                            <li>
+                                @await Component.InvokeAsync("AdminLanguageSelector")
+                            </li>
+                            @if (customerService.IsRegistered(currentCustomer))
+                            {
+                                <li class="account-info">
+                                    @customerService.GetCustomerFullName(currentCustomer)
                                 </li>
                                 <li>
-                                    <a asp-controller="Home" asp-action="Index" asp-area="">@T("Admin.Header.PublicStore")</a>
+                                    <a asp-controller="Customer" asp-action="Logout" asp-area="">@T("Admin.Header.Logout")</a>
                                 </li>
-                                @if (canManageMaintenance)
-                                {
-                                    <li class="dropdown">
-                                        <a href="#" data-toggle="dropdown"><i class="fa fa-gears"></i></a>
-                                        <ul class="maintenance-menu dropdown-menu bg-dark" role="menu">
-                                            <li>
-                                                <form asp-controller="Common" asp-action="ClearCache" asp-area="@AreaNames.Admin">
-                                                    <input name="returnurl" type="hidden" value="@returnUrl">
-                                                    <button type="submit" class="bg-dark">
-                                                        <span>@T("Admin.Header.ClearCache")</span>
-                                                    </button>
-                                                </form>
-                                            </li>
-                                            <li>
-                                                <form asp-controller="Common" asp-action="RestartApplication" asp-area="@AreaNames.Admin">
-                                                    <input name="returnurl" type="hidden" value="@returnUrl">
-                                                    <button id="restart-application" type="submit" class="bg-dark">
-                                                        <span>@T("Admin.Header.RestartApplication")</span>
-                                                    </button>
-                                                    <script>
+                            }
+                            <li>
+                                @await Component.InvokeAsync("AdminWidget", new { widgetZone = AdminWidgetZones.HeaderMiddle })
+                            </li>
+                            <li>
+                                <a asp-controller="Home" asp-action="Index" asp-area="">@T("Admin.Header.PublicStore")</a>
+                            </li>
+                            @if (canManageMaintenance)
+                            {
+                                <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown"><i class="fa fa-gears"></i></a>
+                                    <ul class="maintenance-menu dropdown-menu bg-dark" role="menu">
+                                        <li>
+                                            <form asp-controller="Common" asp-action="ClearCache" asp-area="@AreaNames.Admin">
+                                                <input name="returnurl" type="hidden" value="@returnUrl">
+                                                <button type="submit" class="bg-dark">
+                                                    <span>@T("Admin.Header.ClearCache")</span>
+                                                </button>
+                                            </form>
+                                        </li>
+                                        <li>
+                                            <form asp-controller="Common" asp-action="RestartApplication" asp-area="@AreaNames.Admin">
+                                                <input name="returnurl" type="hidden" value="@returnUrl">
+                                                <button id="restart-application" type="submit" class="bg-dark">
+                                                    <span>@T("Admin.Header.RestartApplication")</span>
+                                                </button>
+                                                <script>
                                                         $(document).ready(function () {
                                                             $("#restart-application").click(function (e) {
                                                                 showThrobber('@Html.Raw(JavaScriptEncoder.Default.Encode(T("Admin.Header.RestartApplication.Progress").Text))');
                                                             });
                                                         });
-                                                    </script>
-                                                </form>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                }
-                            </ul>
-                            @await Component.InvokeAsync("AdminWidget", new { widgetZone = AdminWidgetZones.HeaderNavbarAfter })
-                        </div>
+                                                </script>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </li>
+                            }
+                        </ul>
+                        @await Component.InvokeAsync("AdminWidget", new { widgetZone = AdminWidgetZones.HeaderNavbarAfter })
                     </div>
-                </div>
-                @await Component.InvokeAsync("AdminWidget", new { widgetZone = AdminWidgetZones.HeaderAfter })
-            }
-            @if (IsSectionDefined("headermenu"))
-            {
-                @RenderSection("headermenu")
-            }
-            else
-            {
-                <div class="main-sidebar">
-                    <div class="sidebar">
-                        @await Component.InvokeAsync("AdminWidget", new { widgetZone = AdminWidgetZones.SearchBoxBefore })
-                        <div class="sidebar-form">
-                            <div id="search-box">
-                                <input type="text" class="form-control admin-search-box typeahead" placeholder="@T("Admin.Menu.Search")">
-                            </div>
-                        </div>
-                        <script>
-                            $(document).ready(function () {
-                                Admin.Search.init();
-                            });
-                        </script>
-                        @await Component.InvokeAsync("AdminWidget", new { widgetZone = AdminWidgetZones.MenuBefore })
-                        @await Html.PartialAsync("Menu")
-                    </div>
-                </div>
-            }
-            <div class="content-wrapper">
-                @await Html.PartialAsync("Notifications")
-                <div>
-                    <nop-antiforgery-token />
-                    @RenderBody()
                 </div>
             </div>
-            <div class="main-footer clearfix">
-                @if (!storeInformationSettings.HidePoweredByNopCommerce)
-                {
-                    @*Would you like to remove the "Powered by nopCommerce" link in the bottom of the footer?
-                    Please find more info at https://www.nopcommerce.com/nopcommerce-premium-support-services*@
-                    <div class="pull-left">
-                        Powered by <a href="https://www.nopcommerce.com/?utm_source=admin-panel&utm_medium=footer&utm_campaign=admin-panel" target="_blank">nopCommerce</a>
+            @await Component.InvokeAsync("AdminWidget", new { widgetZone = AdminWidgetZones.HeaderAfter })
+        }
+        @if (IsSectionDefined("headermenu"))
+        {
+            @RenderSection("headermenu")
+        }
+        else
+        {
+            <div class="main-sidebar">
+                <div class="sidebar">
+                    @await Component.InvokeAsync("AdminWidget", new { widgetZone = AdminWidgetZones.SearchBoxBefore })
+                    <div class="sidebar-form">
+                        <div id="search-box">
+                            <input type="text" class="form-control admin-search-box typeahead" placeholder="@T("Admin.Menu.Search")">
+                        </div>
                     </div>
-                }
-                <div class="pull-right hidden-xs">
-                    <b>nopCommerce version @NopVersion.CurrentVersion</b>
+                    <script>
+                        $(document).ready(function () {
+                            Admin.Search.init();
+                        });
+                    </script>
+                    @await Component.InvokeAsync("AdminWidget", new { widgetZone = AdminWidgetZones.MenuBefore })
+                    @await Html.PartialAsync("Menu")
                 </div>
-                <div class="text-center">
-                    @dateTimeHelper.ConvertToUserTime(DateTime.Now).ToString("f", currentCulture)
-                </div>
+            </div>
+        }
+        <div class="content-wrapper">
+            @await Html.PartialAsync("Notifications")
+            <div>
+                <nop-antiforgery-token />
+                @RenderBody()
             </div>
         </div>
-        <script>
-            var AdminLTEOptions = {
-                boxWidgetOptions: {
-                    boxWidgetIcons: {
-                        collapse: 'fa-minus',
-                        open: 'fa-plus'
-                    }
-                }
-            };
-        </script>
-        @{
-            //scroll to a selected panel (if specified)
-            var selectedPanelName = this.Html.GetSelectedPanelName();
-            if (!String.IsNullOrEmpty(selectedPanelName))
+        <div class="main-footer clearfix">
+            @if (!storeInformationSettings.HidePoweredByNopCommerce)
             {
-                <script>
-                    location.hash = '#@(selectedPanelName)';
-                </script>
+                @*Would you like to remove the "Powered by nopCommerce" link in the bottom of the footer?
+                    Please find more info at https://www.nopcommerce.com/nopcommerce-premium-support-services*@
+                <div class="pull-left">
+                    Powered by <a href="https://www.nopcommerce.com/?utm_source=admin-panel&utm_medium=footer&utm_campaign=admin-panel" target="_blank">nopCommerce</a>
+                </div>
             }
+            <div class="pull-right hidden-xs">
+                <b>nopCommerce version @NopVersion.CurrentVersion</b>
+            </div>
+            <div class="text-center">
+                @dateTimeHelper.ConvertToUserTime(DateTime.Now).ToString("f", currentCulture)
+            </div>
+        </div>
+    </div>
+    <script>
+        var AdminLTEOptions = {
+            boxWidgetOptions: {
+                boxWidgetIcons: {
+                    collapse: 'fa-minus',
+                    open: 'fa-plus'
+                }
+            }
+        };
+    </script>
+    @{
+        //scroll to a selected panel (if specified)
+        var selectedPanelName = this.Html.GetSelectedPanelName();
+        if (!String.IsNullOrEmpty(selectedPanelName))
+        {
+            <script>
+                    location.hash = '#@(selectedPanelName)';
+            </script>
         }
-        @Html.NopCssFiles(ResourceLocation.Footer)
-        @Html.NopScripts(ResourceLocation.Footer)
-        <a id="backTop" class="btn btn-back-top bg-teal"></a>
-        <script>
-            $(document).ready(function () {
-                //enable "back top" arrow
-                $('#backTop').backTop();
+    }
+    @Html.NopCssFiles(ResourceLocation.Footer)
+    @Html.NopScripts(ResourceLocation.Footer)
+    <a id="backTop" class="btn btn-back-top bg-teal"></a>
+    <script>
+        $(document).ready(function () {
+            //enable "back top" arrow
+            $('#backTop').backTop();
 
-                //enable tooltips
-                $('[data-toggle="tooltip"]').tooltip();
-            });
-        </script>
-    </body>
+            //enable tooltips
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</body>
 </html>

@@ -158,11 +158,16 @@ namespace Nop.Web.Framework.Models.DataTables
         /// </summary>
         public string BindColumnNameActionDelete { get; set; }
 
+        public bool ShowPrintButton { get; set; }
+
+        public bool SetOrder { get; set; }
+        public string Order { get; set; }
+
         /// <summary>
         /// Gets or set column collection 
         /// </summary>
         public IList<ColumnProperty> ColumnCollection { get; set; }
-        
+
         #endregion
     }
 }

@@ -120,11 +120,12 @@ namespace Nop.Services.Customers
             string email = null, string username = null, string firstName = null, string lastName = null,
             int dayOfBirth = 0, int monthOfBirth = 0,
             string company = null, string phone = null, string zipPostalCode = null, string ipAddress = null,
-            int pageIndex = 0, int pageSize = int.MaxValue, bool getOnlyTotalCount = false)
+            int pageIndex = 0, int pageSize = int.MaxValue, bool getOnlyTotalCount = false,
+            string sortColumn = null, string sortDirection = null)
         {
             var query = (from cus in _customerRepository.Table
                          where !(from copCust in _corporateCustomerRepository.Table
-                                select copCust.Customer_Id).Contains(cus.Id)
+                                 select copCust.Customer_Id).Contains(cus.Id)
                          select cus);
             if (createdFromUtc.HasValue)
                 query = query.Where(c => createdFromUtc.Value <= c.CreatedOnUtc);
@@ -249,7 +250,121 @@ namespace Nop.Services.Customers
                 query = query.Where(w => w.LastIpAddress == ipAddress);
             }
 
-            query = query.OrderByDescending(c => c.CreatedOnUtc);
+            //Sorting logic
+            if (!string.IsNullOrEmpty(sortColumn) && !string.IsNullOrEmpty(sortDirection))
+            {
+                if (sortColumn == "Id")
+                {
+                    if (sortDirection == "asc")
+                        query = query.OrderBy(c => c.Id);
+                    else
+                        query = query.OrderByDescending(c => c.Id);
+                }
+                else if (sortColumn == "Email")
+                {
+                    if (sortDirection == "asc")
+                        query = query.OrderBy(c => c.Email);
+                    else
+                        query = query.OrderByDescending(c => c.Email);
+                }
+                else if (sortColumn == "Name")
+                {
+                    if (sortDirection == "asc")
+                    {
+                        query = query.Join(_gaRepository.Table, x => x.Id, y => y.EntityId, (x, y) => new { Customer = x, Attribute = y })
+                    .Where(z => z.Attribute.KeyGroup == nameof(Customer) &&
+                                z.Attribute.Key == NopCustomerDefaults.FirstNameAttribute)
+                    .OrderBy(z => z.Attribute.Value)
+                    .Select(z => z.Customer);
+                    }
+                    else
+                    {
+                        query = query.Join(_gaRepository.Table, x => x.Id, y => y.EntityId, (x, y) => new { Customer = x, Attribute = y })
+                .Where(z => z.Attribute.KeyGroup == nameof(Customer) &&
+                            z.Attribute.Key == NopCustomerDefaults.FirstNameAttribute)
+                .OrderByDescending(z => z.Attribute.Value)
+                .Select(z => z.Customer);
+                    }
+                }
+                else if (sortColumn == "Phone")
+                {
+                    if (sortDirection == "asc")
+                    {
+                        query = query.Join(_gaRepository.Table, x => x.Id, y => y.EntityId, (x, y) => new { Customer = x, Attribute = y })
+                    .Where(z => z.Attribute.KeyGroup == nameof(Customer) &&
+                                z.Attribute.Key == NopCustomerDefaults.PhoneAttribute)
+                    .OrderBy(z => z.Attribute.Value)
+                    .Select(z => z.Customer);
+                    }
+                    else
+                    {
+                        query = query.Join(_gaRepository.Table, x => x.Id, y => y.EntityId, (x, y) => new { Customer = x, Attribute = y })
+                .Where(z => z.Attribute.KeyGroup == nameof(Customer) &&
+                            z.Attribute.Key == NopCustomerDefaults.PhoneAttribute)
+                .OrderByDescending(z => z.Attribute.Value)
+                .Select(z => z.Customer);
+                    }
+                }
+                else if (sortColumn == "Zip")
+                {
+                    if (sortDirection == "asc")
+                    {
+                        query = query.Join(_gaRepository.Table, x => x.Id, y => y.EntityId, (x, y) => new { Customer = x, Attribute = y })
+                    .Where(z => z.Attribute.KeyGroup == nameof(Customer) &&
+                                z.Attribute.Key == NopCustomerDefaults.ZipPostalCodeAttribute)
+                    .OrderBy(z => z.Attribute)
+                    .Select(z => z.Customer);
+                    }
+                    else
+                    {
+                        query = query.Join(_gaRepository.Table, x => x.Id, y => y.EntityId, (x, y) => new { Customer = x, Attribute = y })
+                .Where(z => z.Attribute.KeyGroup == nameof(Customer) &&
+                            z.Attribute.Key == NopCustomerDefaults.ZipPostalCodeAttribute)
+                .OrderByDescending(z => z.Attribute.Value)
+                .Select(z => z.Customer);
+                    }
+                }
+                else if (sortColumn == "Status")
+                {
+                    if (sortDirection == "asc")
+                        query = query.OrderBy(c => c.Active);
+                    else
+                        query = query.OrderByDescending(c => c.Active);
+                }
+                else if (sortColumn == "CreatedOn")
+                {
+                    if (sortDirection == "asc")
+                        query = query.OrderBy(c => c.CreatedOnUtc);
+                    else
+                        query = query.OrderByDescending(c => c.CreatedOnUtc);
+                }
+                else if (sortColumn == "LastActivity")
+                {
+                    if (sortDirection == "asc")
+                        query = query.OrderBy(c => c.LastActivityDateUtc);
+                    else
+                        query = query.OrderByDescending(c => c.LastActivityDateUtc);
+                }
+                else if (sortColumn == "Roles")
+                {
+                    if (sortDirection == "asc")
+                    {
+                        query = query.Join(_customerCustomerRoleMappingRepository.Table, x => x.Id, y => y.CustomerId,
+                        (x, y) => new { Customer = x, Mapping = y })
+                            .Join(_customerRoleRepository.Table, x => x.Mapping.CustomerRoleId, y => y.Id, (x, y) => new { Customer = x, Role = y })
+                            .OrderBy(x => x.Role.Name).Select(z => z.Customer.Customer);
+                    }
+                    else
+                    {
+                        query = query.Join(_customerCustomerRoleMappingRepository.Table, x => x.Id, y => y.CustomerId,
+                        (x, y) => new { Customer = x, Mapping = y })
+                            .Join(_customerRoleRepository.Table, x => x.Mapping.CustomerRoleId, y => y.Id, (x, y) => new { Customer = x, Role = y })
+                            .OrderByDescending(x => x.Role.Name).Select(z => z.Customer.Customer);
+                    }
+                }
+            }
+            else
+                query = query.OrderByDescending(c => c.CreatedOnUtc);
 
             var customers = new PagedList<Customer>(query, pageIndex, pageSize, getOnlyTotalCount);
 
@@ -458,14 +573,14 @@ namespace Nop.Services.Customers
             //filter customers by billing country
             if (countryId > 0)
                 customers = from c in customers
-                    join a in _customerAddressRepository.Table on c.BillingAddressId equals a.Id
-                    where a.CountryId == countryId
-                    select c;
+                            join a in _customerAddressRepository.Table on c.BillingAddressId equals a.Id
+                            where a.CountryId == countryId
+                            select c;
 
             var customersWithCarts = from c in customers
-                join item in items on c.Id equals item.CustomerId
-                orderby c.Id
-                select c;
+                                     join item in items on c.Id equals item.CustomerId
+                                     orderby c.Id
+                                     select c;
 
             return new PagedList<Customer>(customersWithCarts.Distinct(), pageIndex, pageSize);
         }
@@ -612,7 +727,7 @@ namespace Nop.Services.Customers
         {
             var backgroundTaskUser = GetCustomerBySystemName(NopCustomerDefaults.BackgroundTaskCustomerName);
 
-            if(backgroundTaskUser is null)
+            if (backgroundTaskUser is null)
             {
                 //If for any reason the system user isn't in the database, then we add it
                 backgroundTaskUser = new Customer
@@ -627,12 +742,12 @@ namespace Nop.Services.Customers
                     LastActivityDateUtc = DateTime.UtcNow,
                     RegisteredInStoreId = _storeContext.CurrentStore.Id
                 };
-                
+
                 InsertCustomer(backgroundTaskUser);
 
                 var guestRole = GetCustomerRoleBySystemName(NopCustomerDefaults.GuestsRoleName);
 
-                if(guestRole is null)
+                if (guestRole is null)
                     throw new NopException("'Guests' role could not be loaded");
 
                 AddCustomerRoleMapping(new CustomerCustomerRoleMapping { CustomerRoleId = guestRole.Id, CustomerId = backgroundTaskUser.Id });
@@ -649,7 +764,7 @@ namespace Nop.Services.Customers
         {
             var searchEngineUser = GetCustomerBySystemName(NopCustomerDefaults.SearchEngineCustomerName);
 
-            if(searchEngineUser is null)
+            if (searchEngineUser is null)
             {
                 //If for any reason the system user isn't in the database, then we add it
                 searchEngineUser = new Customer
@@ -664,12 +779,12 @@ namespace Nop.Services.Customers
                     LastActivityDateUtc = DateTime.UtcNow,
                     RegisteredInStoreId = _storeContext.CurrentStore.Id
                 };
-                
+
                 InsertCustomer(searchEngineUser);
 
                 var guestRole = GetCustomerRoleBySystemName(NopCustomerDefaults.GuestsRoleName);
 
-                if(guestRole is null)
+                if (guestRole is null)
                     throw new NopException("'Guests' role could not be loaded");
 
                 AddCustomerRoleMapping(new CustomerCustomerRoleMapping { CustomerRoleId = guestRole.Id, CustomerId = searchEngineUser.Id });
@@ -1261,9 +1376,9 @@ namespace Nop.Services.Customers
             var key = _cacheKeyService.PrepareKeyForDefaultCache(NopCustomerServicesDefaults.CustomerRolesBySystemNameCacheKey, systemName);
 
             var query = from cr in _customerRoleRepository.Table
-                orderby cr.Id
-                where cr.SystemName == systemName
-                select cr;
+                        orderby cr.Id
+                        where cr.SystemName == systemName
+                        select cr;
             var customerRole = query.ToCachedFirstOrDefault(key);
 
             return customerRole;
@@ -1282,7 +1397,7 @@ namespace Nop.Services.Customers
 
             var query = from cr in _customerRoleRepository.Table
                         join crm in _customerCustomerRoleMappingRepository.Table on cr.Id equals crm.CustomerRoleId
-                        where crm.CustomerId == customer.Id && 
+                        where crm.CustomerId == customer.Id &&
                         (showHidden || cr.Active)
                         select cr.Id;
 
@@ -1304,7 +1419,7 @@ namespace Nop.Services.Customers
 
             var query = from cr in _customerRoleRepository.Table
                         join crm in _customerCustomerRoleMappingRepository.Table on cr.Id equals crm.CustomerRoleId
-                        where crm.CustomerId == customer.Id && 
+                        where crm.CustomerId == customer.Id &&
                         (showHidden || cr.Active)
                         select cr;
 
@@ -1323,9 +1438,9 @@ namespace Nop.Services.Customers
             var key = _cacheKeyService.PrepareKeyForDefaultCache(NopCustomerServicesDefaults.CustomerRolesAllCacheKey, showHidden);
 
             var query = from cr in _customerRoleRepository.Table
-                orderby cr.Name
-                where showHidden || cr.Active
-                select cr;
+                        orderby cr.Name
+                        where showHidden || cr.Active
+                        select cr;
 
             var customerRoles = query.ToCachedList(key);
 
@@ -1336,8 +1451,9 @@ namespace Nop.Services.Customers
         {
             var key = _cacheKeyService.PrepareKeyForDefaultCache(NopCustomerServicesDefaults.CustomerRolesAllCacheKey, showHidden);
 
-            var query = from cr in _customerRoleRepository.Table join copCus in _corporateCustomerRepository.Table
-                        on cr.Id equals copCus.Customer_Id
+            var query = from cr in _customerRoleRepository.Table
+                        join copCus in _corporateCustomerRepository.Table
+on cr.Id equals copCus.Customer_Id
                         orderby cr.Name
                         where showHidden || cr.Active
                         select cr;
@@ -1596,7 +1712,7 @@ namespace Nop.Services.Customers
                 return false;
 
             var cacheKey = _cacheKeyService.PrepareKeyForShortTermCache(NopCustomerServicesDefaults.CustomerPasswordLifetimeCacheKey, customer);
-            
+
             //get current password usage time
             var currentLifetime = _staticCacheManager.Get(cacheKey, () =>
             {
@@ -1675,9 +1791,9 @@ namespace Nop.Services.Customers
         public virtual IList<Address> GetAddressesByCustomerId(int customerId)
         {
             var query = from address in _customerAddressRepository.Table
-                join cam in _customerAddressMappingRepository.Table on address.Id equals cam.AddressId
-                where cam.CustomerId == customerId
-                select address;
+                        join cam in _customerAddressMappingRepository.Table on address.Id equals cam.AddressId
+                        where cam.CustomerId == customerId
+                        select address;
 
             var key = _cacheKeyService.PrepareKeyForShortTermCache(NopCustomerServicesDefaults.CustomerAddressesByCustomerIdCacheKey, customerId);
 
@@ -1696,9 +1812,9 @@ namespace Nop.Services.Customers
                 return null;
 
             var query = from address in _customerAddressRepository.Table
-                join cam in _customerAddressMappingRepository.Table on address.Id equals cam.AddressId
-                where cam.CustomerId == customerId && address.Id == addressId
-                select address;
+                        join cam in _customerAddressMappingRepository.Table on address.Id equals cam.AddressId
+                        where cam.CustomerId == customerId && address.Id == addressId
+                        select address;
 
             var key = _cacheKeyService.PrepareKeyForShortTermCache(NopCustomerServicesDefaults.CustomerAddressCacheKeyCacheKey, customerId, addressId);
 

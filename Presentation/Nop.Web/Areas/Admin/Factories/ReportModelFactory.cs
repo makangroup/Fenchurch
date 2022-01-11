@@ -1,17 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using Fenchurch.Web.Areas.Admin.Models.Reports;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Nop.Core;
+using Nop.Core.Domain.Common;
+using Nop.Core.Domain.Directory;
 using Nop.Core.Domain.Orders;
 using Nop.Core.Domain.Payments;
 using Nop.Core.Domain.Shipping;
 using Nop.Services.Catalog;
+using Nop.Services.Common;
 using Nop.Services.Customers;
 using Nop.Services.Directory;
 using Nop.Services.Helpers;
 using Nop.Services.Localization;
 using Nop.Services.Orders;
+using Nop.Services.Shipping;
+using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nop.Web.Areas.Admin.Models.Orders;
 using Nop.Web.Areas.Admin.Models.Reports;
 using Nop.Web.Framework.Models.Extensions;
 
@@ -35,6 +43,11 @@ namespace Nop.Web.Areas.Admin.Factories
         private readonly IProductAttributeFormatter _productAttributeFormatter;
         private readonly IProductService _productService;
         private readonly IWorkContext _workContext;
+        private readonly IShipmentService _shipmentService;
+        private readonly IOrderService _orderService;
+        private readonly IAddressService _addressService;
+        private readonly AddressSettings _addressSettings;
+        private readonly IStateProvinceService _stateProvinceService;
 
         #endregion
 
@@ -50,7 +63,12 @@ namespace Nop.Web.Areas.Admin.Factories
             IPriceFormatter priceFormatter,
             IProductAttributeFormatter productAttributeFormatter,
             IProductService productService,
-            IWorkContext workContext)
+            IWorkContext workContext,
+            IShipmentService shipmentService,
+            IOrderService orderService,
+            IAddressService addressService,
+            AddressSettings addressSettings,
+            IStateProvinceService stateProvinceService)
         {
             _baseAdminModelFactory = baseAdminModelFactory;
             _countryService = countryService;
@@ -63,6 +81,11 @@ namespace Nop.Web.Areas.Admin.Factories
             _productAttributeFormatter = productAttributeFormatter;
             _productService = productService;
             _workContext = workContext;
+            _shipmentService = shipmentService;
+            _orderService = orderService;
+            _addressService = addressService;
+            _addressSettings = addressSettings;
+            _stateProvinceService = stateProvinceService;
         }
 
         #endregion
@@ -551,30 +574,30 @@ namespace Nop.Web.Areas.Admin.Factories
             var model = new BestCustomersReportListModel().PrepareToGrid(searchModel, reportItems, () =>
             {
                 return reportItems.Select(item =>
-               {
+                {
                     //fill in model values from the entity
                     var bestCustomersReportModel = new BestCustomersReportModel
-                   {
-                       CustomerId = item.CustomerId,
-                       OrderTotal = _priceFormatter.FormatPrice(item.OrderTotal, true, false),
-                       OrderCount = item.OrderCount
-                   };
+                    {
+                        CustomerId = item.CustomerId,
+                        OrderTotal = _priceFormatter.FormatPrice(item.OrderTotal, true, false),
+                        OrderCount = item.OrderCount
+                    };
 
                     //fill in additional values (not existing in the entity)
                     var customer = _customerService.GetCustomerById(item.CustomerId);
-                   if (customer != null)
-                   {
-                       bestCustomersReportModel.CustomerName = _customerService.IsRegistered(customer) ? customer.Email :
-                           _localizationService.GetResource("Admin.Customers.Guest");
-                   }
+                    if (customer != null)
+                    {
+                        bestCustomersReportModel.CustomerName = _customerService.IsRegistered(customer) ? customer.Email :
+                            _localizationService.GetResource("Admin.Customers.Guest");
+                    }
 
-                   return bestCustomersReportModel;
-               });
+                    return bestCustomersReportModel;
+                });
             });
 
             return model;
         }
-                
+
         /// <summary>
         /// Prepare paged registered customers report list model
         /// </summary>
@@ -616,6 +639,128 @@ namespace Nop.Web.Areas.Admin.Factories
             var model = new RegisteredCustomersReportListModel().PrepareToGrid(searchModel, pagedList, () =>
             {
                 return pagedList;
+            });
+
+            return model;
+        }
+
+        #endregion
+
+        #region Tracking reports
+        public virtual TrackingReportSearchModel PrepareTrackingSearchModel(TrackingReportSearchModel searchModel)
+        {
+            if (searchModel == null)
+                throw new ArgumentNullException(nameof(searchModel));
+
+            //prepare page parameters
+            searchModel.SetGridPageSize();
+
+            return searchModel;
+        }
+
+        public virtual TrackingReportListItemModel PrepareTrackingReportListModel(TrackingReportSearchModel searchModel)
+        {
+            if (searchModel == null)
+                throw new ArgumentNullException(nameof(searchModel));
+
+            //get parameters to filter shipments
+            var vendorId = _workContext.CurrentVendor?.Id ?? 0;
+            var startDateValue = !searchModel.StartDate.HasValue ? null
+                : (DateTime?)_dateTimeHelper.ConvertToUtcTime(searchModel.StartDate.Value, _dateTimeHelper.CurrentTimeZone);
+            var endDateValue = !searchModel.EndDate.HasValue ? null
+                : (DateTime?)_dateTimeHelper.ConvertToUtcTime(searchModel.EndDate.Value, _dateTimeHelper.CurrentTimeZone).AddDays(1);
+
+            //get shipments
+            var shipments = _shipmentService.GetAllShipments(vendorId,
+                searchModel.WarehouseId,
+                searchModel.CountryId,
+                searchModel.StateProvinceId,
+                searchModel.County,
+                searchModel.City,
+                searchModel.TrackingNumber,
+                searchModel.LoadNotShipped,
+                searchModel.LoadNotDelivered,
+                0,
+                startDateValue,
+                endDateValue,
+                searchModel.Page - 1,
+                searchModel.PageSize);
+
+            //prepare list model
+            var model = new TrackingReportListItemModel().PrepareToGrid(searchModel, shipments, () =>
+            {
+                //fill in model values from the entity
+                return shipments.Select(shipment =>
+                {
+                    var trackingModel = new TrackingReportItemModel();
+                    //fill in model values from the entity
+                    var shipmentModel = shipment.ToModel<ShipmentModel>();
+
+                    //fill in additional values (not existing in the entity)
+                    shipmentModel.CanShip = !shipment.ShippedDateUtc.HasValue;
+                    shipmentModel.CanDeliver = shipment.ShippedDateUtc.HasValue && !shipment.DeliveryDateUtc.HasValue;
+
+                    var order = _orderService.GetOrderById(shipment.OrderId);
+                    var address = _addressService.GetAddressById(order.ShippingAddressId.HasValue ? order.ShippingAddressId.Value : default);
+                    var sProvince = _stateProvinceService.GetStateProvinceByAddress(address) is StateProvince stateProvince ? _localizationService.GetLocalized(stateProvince, x => x.Name) : null;
+
+                    var addressBuilder = new StringBuilder();
+
+                    if (_addressSettings.StreetAddressEnabled)
+                    {
+                        addressBuilder.Append(address.Address1);
+                    }
+                    if (_addressSettings.StreetAddress2Enabled && !string.IsNullOrEmpty(address.Address2))
+                    {
+                        addressBuilder.Append($" {address.Address2}");
+                    }
+
+
+                    if (_addressSettings.CityEnabled && !string.IsNullOrEmpty(address.City) ||
+                                          _addressSettings.CountyEnabled && !string.IsNullOrEmpty(address.County) ||
+                                          _addressSettings.StateProvinceEnabled && !string.IsNullOrEmpty(sProvince) ||
+                                          _addressSettings.ZipPostalCodeEnabled && !string.IsNullOrEmpty(address.ZipPostalCode))
+                    {
+                        if (_addressSettings.CityEnabled && !string.IsNullOrEmpty(address.City))
+                        {
+                            addressBuilder.Append($" {address.City}");
+                            if (_addressSettings.CountyEnabled && !string.IsNullOrEmpty(address.County) ||
+                                                      _addressSettings.StateProvinceEnabled && !string.IsNullOrEmpty(sProvince) ||
+                                                      _addressSettings.ZipPostalCodeEnabled && !string.IsNullOrEmpty(address.ZipPostalCode))
+                            {
+                                addressBuilder.Append(",");
+                            }
+                        }
+                        if (_addressSettings.CountyEnabled && !string.IsNullOrEmpty(address.County))
+                        {
+                            addressBuilder.Append($" {address.County}");
+                            if (_addressSettings.StateProvinceEnabled && !string.IsNullOrEmpty(sProvince) ||
+                              _addressSettings.ZipPostalCodeEnabled && !string.IsNullOrEmpty(address.ZipPostalCode))
+                            {
+                                addressBuilder.Append(",");
+                            }
+                        }
+                        if (_addressSettings.StateProvinceEnabled && !string.IsNullOrEmpty(sProvince))
+                        {
+                            addressBuilder.Append($" {sProvince}");
+                            if (_addressSettings.ZipPostalCodeEnabled && !string.IsNullOrEmpty(address.ZipPostalCode))
+                            {
+                                addressBuilder.Append(",");
+                            }
+                        }
+                        if (_addressSettings.ZipPostalCodeEnabled && !string.IsNullOrEmpty(address.ZipPostalCode))
+                        {
+                            addressBuilder.Append($"{address.ZipPostalCode}");
+                        }
+                    }
+                    trackingModel.Address = addressBuilder.ToString();
+                    trackingModel.CustomerName = address.FirstName + (string.IsNullOrEmpty(address.LastName) ? string.Empty : $" {address.LastName}");
+                    trackingModel.PhoneNumber = address.PhoneNumber;
+                    trackingModel.TrackingNumber = shipmentModel.TrackingNumber;
+                    trackingModel.Id = shipmentModel.Id;
+                    trackingModel.Date = shipment.CreatedOnUtc.ToString("MM/dd/yyyy h:mm tt");
+                    return trackingModel;
+                });
             });
 
             return model;

@@ -6,12 +6,14 @@
 @using Nop.Services.Security
 @using Nop.Web.Framework.Events
 @using Nop.Core
+@using Nop.Web.Factories
 @inject CommonSettings commonSettings
 @inject IEventPublisher eventPublisher
 @inject IPermissionService permissionService
 @inject IWorkContext workContext
 @inject SeoSettings seoSettings
 @inject StoreInformationSettings storeInformationSettings
+@inject ICommonModelFactory commonModelFactory
 @inject Nop.Services.Localization.ILanguageService languageService
 @{
     Html.AppendScriptParts(ResourceLocation.Footer, "~/js/public.countryselect.js");
@@ -42,6 +44,8 @@
         && (!storeInformationSettings.DisplayMiniProfilerForAdminOnly || permissionService.Authorize(StandardPermissionProvider.AccessAdminPanel));
     //event
     eventPublisher.Publish(new PageRenderingEvent(this.Html));
+
+    var logoModel = commonModelFactory.PrepareLogoModel();
 }
 <!DOCTYPE html>
 <html lang="@languageService.GetTwoLetterIsoLanguageName(workContext.WorkingLanguage)" @(this.ShouldUseRtlTheme() ? Html.Raw(" dir=\"rtl\"") : null) @Html.NopPageCssClasses()>
@@ -52,36 +56,43 @@
     <meta name="keywords" content="@(Html.NopMetaKeywords())" />
     <meta name="generator" content="nopCommerce" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:image" content="https://fenchurch.co.nz/images/thumbs/0000123_logo_fb.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Fenchurch" />
+    <meta property="og:url" content="@Url.PageLink()" />
+    <meta property="og:description" content="@(Html.NopMetaDescription())" />
+    <meta property="og:site_name" content="fenchurch" />
+    <meta property="fb:app_id" content="1270419110108841" />
     <!-- Google Tag Manager -->
     <script>
-    (function (w, d, s, l, i) {
-        w[l] = w[l] || []; w[l].push({
-            'gtm.start':
-                new Date().getTime(), event: 'gtm.js'
-        }); var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-KHC29T8');</script>
     <!-- End Google Tag Manager -->
     <!-- Facebook Pixel Code -->
     @*<script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '197876189004259');
-        fbq('track', 'PageView');
-    </script>
-    <noscript>
-        <img height="1" width="1" src="https://www.facebook.com/tr?id=197876189004259&ev=PageView&noscript=1" />
-    </noscript>*@
+            !function (f, b, e, v, n, t, s) {
+                if (f.fbq) return; n = f.fbq = function () {
+                    n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+                n.queue = []; t = b.createElement(e); t.async = !0;
+                t.src = v; s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window, document, 'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '197876189004259');
+            fbq('track', 'PageView');
+        </script>
+        <noscript>
+            <img height="1" width="1" src="https://www.facebook.com/tr?id=197876189004259&ev=PageView&noscript=1" />
+        </noscript>*@
     <!-- End Facebook Pixel Code -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -98,8 +109,8 @@
     @await Component.InvokeAsync("Favicon")
     @if (displayMiniProfiler)
     {
-        <mini-profiler />
-    }
+<mini-profiler />
+}
     @Html.NopInlineScripts(ResourceLocation.Head)
     <!--Powered by nopCommerce - https://www.nopCommerce.com-->
 </head>

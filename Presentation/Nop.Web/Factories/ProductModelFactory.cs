@@ -184,7 +184,7 @@ namespace Nop.Web.Factories
                 productReview = _staticCacheManager.Get(cacheKey, () =>
                 {
                     var productReviews = _productService.GetAllProductReviews(productId: product.Id, approved: true, storeId: _storeContext.CurrentStore.Id);
-                    
+
                     return new ProductReviewOverviewModel
                     {
                         RatingSum = productReviews.Sum(pr => pr.Rating),
@@ -307,7 +307,7 @@ namespace Nop.Web.Factories
                     var oldPrice = _currencyService.ConvertFromPrimaryStoreCurrency(oldPriceBase, _workContext.WorkingCurrency);
                     var finalPriceWithoutDiscount = _currencyService.ConvertFromPrimaryStoreCurrency(finalPriceWithoutDiscountBase, _workContext.WorkingCurrency);
                     var finalPriceWithDiscount = _currencyService.ConvertFromPrimaryStoreCurrency(finalPriceWithDiscountBase, _workContext.WorkingCurrency);
-                                        
+
 
                     //do we have tier prices configured?
                     var tierPrices = new List<TierPrice>();
@@ -324,9 +324,9 @@ namespace Nop.Web.Factories
 
                     if (displayFromMessage)
                     {
-                            priceModel.OldPrice = null;
-                            priceModel.Price = string.Format(_localizationService.GetResource("Products.PriceRangeFrom"), _priceFormatter.FormatPrice(finalPriceWithDiscount));
-                            priceModel.PriceValue = finalPriceWithDiscount;
+                        priceModel.OldPrice = null;
+                        priceModel.Price = string.Format(_localizationService.GetResource("Products.PriceRangeFrom"), _priceFormatter.FormatPrice(finalPriceWithDiscount));
+                        priceModel.PriceValue = finalPriceWithDiscount;
                     }
                     else
                     {
@@ -353,7 +353,7 @@ namespace Nop.Web.Factories
                             {
                                 var profit = product.ProductCost * (profitMarkup.ProfitMarkup / 100);
                                 var finalpriceafterprofitmarkup = product.ProductCost + profit;
-                               var tax =  _taxService.GetProductPrice(product, finalpriceafterprofitmarkup, out _);
+                                var tax = _taxService.GetProductPrice(product, finalpriceafterprofitmarkup, out _);
                                 finalPriceWithDiscount = tax;
                                 //finalPriceWithDiscount = product.ProductCost + profit ;
                             }
@@ -478,7 +478,7 @@ namespace Nop.Web.Factories
             var pictureSize = productThumbPictureSize ?? _mediaSettings.ProductThumbPictureSize;
 
             //prepare picture model
-            var cacheKey = _cacheKeyService.PrepareKeyForDefaultCache(NopModelCacheDefaults.ProductDefaultPictureModelKey, 
+            var cacheKey = _cacheKeyService.PrepareKeyForDefaultCache(NopModelCacheDefaults.ProductDefaultPictureModelKey,
                 product, pictureSize, true, _workContext.WorkingLanguage, _webHelper.IsCurrentConnectionSecured(),
                 _storeContext.CurrentStore);
 
@@ -487,8 +487,8 @@ namespace Nop.Web.Factories
                 var picture = _pictureService.GetPicturesByProductId(product.Id, 1).FirstOrDefault();
                 var pictureModel = new PictureModel
                 {
-                    ImageUrl = _pictureService.GetPictureUrl(ref picture, pictureSize),
-                    FullSizeImageUrl = _pictureService.GetPictureUrl(ref picture),
+                    ImageUrl = _pictureService.GetPictureUrl(ref picture, _mediaSettings.ProductDetailsPictureSize, isProductPicture: true),
+                    FullSizeImageUrl = _pictureService.GetPictureUrl(ref picture, _mediaSettings.ProductDetailsPictureSize, isProductPicture: true),
                     //"title" attribute
                     Title = (picture != null && !string.IsNullOrEmpty(picture.TitleAttribute))
                         ? picture.TitleAttribute
@@ -961,10 +961,10 @@ namespace Nop.Web.Factories
 
             var model = _productService.GetTierPrices(product, _workContext.CurrentCustomer, _storeContext.CurrentStore.Id)
                    .Select(tierPrice =>
-                {
-                    var priceBase = _taxService.GetProductPrice(product, _priceCalculationService.GetFinalPrice(product,
-                        _workContext.CurrentCustomer, decimal.Zero, _catalogSettings.DisplayTierPricesWithDiscounts,
-                        tierPrice.Quantity), out var _);
+                   {
+                       var priceBase = _taxService.GetProductPrice(product, _priceCalculationService.GetFinalPrice(product,
+                           _workContext.CurrentCustomer, decimal.Zero, _catalogSettings.DisplayTierPricesWithDiscounts,
+                           tierPrice.Quantity), out var _);
 
                        var price = _currencyService.ConvertFromPrimaryStoreCurrency(priceBase, _workContext.WorkingCurrency);
 
@@ -1024,7 +1024,7 @@ namespace Nop.Web.Factories
 
             //prepare picture models
             var productPicturesCacheKey = _cacheKeyService.PrepareKeyForDefaultCache(NopModelCacheDefaults.ProductDetailsPicturesModelKey
-                , product, defaultPictureSize, isAssociatedProduct, 
+                , product, defaultPictureSize, isAssociatedProduct,
                 _workContext.WorkingLanguage, _webHelper.IsCurrentConnectionSecured(), _storeContext.CurrentStore);
             var cachedPictures = _staticCacheManager.Get(productPicturesCacheKey, () =>
             {
@@ -1034,8 +1034,8 @@ namespace Nop.Web.Factories
                 var defaultPicture = pictures.FirstOrDefault();
                 var defaultPictureModel = new PictureModel
                 {
-                    ImageUrl = _pictureService.GetPictureUrl(ref defaultPicture, defaultPictureSize, !isAssociatedProduct),
-                    FullSizeImageUrl = _pictureService.GetPictureUrl(ref defaultPicture, 0, !isAssociatedProduct)
+                    ImageUrl = _pictureService.GetPictureUrl(ref defaultPicture, _mediaSettings.ProductDetailsPictureSize, !isAssociatedProduct, null, PictureType.Entity, isProductPicture: true),
+                    FullSizeImageUrl = _pictureService.GetPictureUrl(ref defaultPicture, _mediaSettings.ProductDetailsPictureSize, !isAssociatedProduct, isProductPicture: true)
                 };
                 //"title" attribute
                 defaultPictureModel.Title = (defaultPicture != null && !string.IsNullOrEmpty(defaultPicture.TitleAttribute)) ?
@@ -1046,16 +1046,22 @@ namespace Nop.Web.Factories
                     defaultPicture.AltAttribute :
                     string.Format(_localizationService.GetResource("Media.Product.ImageAlternateTextFormat.Details"), productName);
 
+                int pictureId = 0;
                 //all pictures
                 var pictureModels = new List<PictureModel>();
-                for (var i = 0; i < pictures.Count(); i++ )
+                for (var i = 0; i < pictures.Count(); i++)
                 {
+                    if (defaultPicture.Id != pictures[i].Id)
+                    {
+                        pictureId++;
+                    }
+
                     var picture = pictures[i];
                     var pictureModel = new PictureModel
                     {
-                        ImageUrl = _pictureService.GetPictureUrl(ref picture, defaultPictureSize, !isAssociatedProduct),
-                        ThumbImageUrl = _pictureService.GetPictureUrl(ref picture, _mediaSettings.ProductThumbPictureSizeOnProductDetailsPage),
-                        FullSizeImageUrl = _pictureService.GetPictureUrl(ref picture),
+                        ImageUrl = _pictureService.GetPictureUrl(ref picture, defaultPictureSize, !isAssociatedProduct, isProductPicture: true, pictureId: pictureId),
+                        ThumbImageUrl = _pictureService.GetPictureUrl(ref picture, _mediaSettings.ProductDetailsPictureSize, isProductPicture: true, pictureId: pictureId),
+                        FullSizeImageUrl = _pictureService.GetPictureUrl(ref picture, _mediaSettings.ProductDetailsPictureSize, isProductPicture: true, pictureId: pictureId),
                         Title = string.Format(_localizationService.GetResource("Media.Product.ImageLinkTitleFormat.Details"), productName),
                         AlternateText = string.Format(_localizationService.GetResource("Media.Product.ImageAlternateTextFormat.Details"), productName),
                     };
@@ -1412,7 +1418,7 @@ namespace Nop.Web.Factories
             model.ProductSeName = _urlRecordService.GetSeName(product);
 
             var productReviews = _productService.GetAllProductReviews(
-                approved: true, 
+                approved: true,
                 productId: product.Id,
                 storeId: _catalogSettings.ShowProductReviewsPerStore ? _storeContext.CurrentStore.Id : 0).AsEnumerable();
 

@@ -9,7 +9,7 @@
     Html.SetActiveMenuItemSystemName("Customers list");
 }
 
-<form asp-controller="Customer" asp-action="Edit" method="post">
+<form asp-controller="Customer" asp-action="Edit" method="post" enctype="multipart/form-data">
     <div class="content-header clearfix">
         <h1 class="pull-left">
             @T("Admin.Customers.Customers.EditCustomerDetails") - @Model.LastName @Model.FirstName
@@ -56,7 +56,7 @@
             }
             @if (Model.GdprEnabled)
             {
-                
+
                 <div class="btn-group">
                     <button type="button" class="btn btn-success">
                         <i class="fa fa-download"></i>
@@ -68,7 +68,7 @@
                     </button>
                     <ul class="dropdown-menu" role="menu">
                         <li>
-                            <a asp-action="GdprExport" asp-route-id="@Model.Id" >
+                            <a asp-action="GdprExport" asp-route-id="@Model.Id">
                                 <i class="fa fa-file-code-o"></i>
                                 @T("Admin.Customers.Customers.Gdpr.Export")
                             </a>
@@ -106,7 +106,7 @@
                 <h4 class="modal-title" id="sendemail-window-title">@T("Admin.Customers.Customers.SendEmail")</h4>
             </div>
             <form asp-controller="Customer" asp-action="SendEmail" method="post">
-                <input type="hidden" asp-for="Id" id="SendEmail_Id"/>
+                <input type="hidden" asp-for="Id" id="SendEmail_Id" />
                 <div class="form-horizontal">
                     <div class="modal-body">
                         <div class="form-group">
@@ -187,7 +187,7 @@
                 <h4 class="modal-title" id="sendprivatemessage-window-title">@T("Admin.Customers.Customers.SendPM")</h4>
             </div>
             <form asp-controller="Customer" asp-action="SendPm" method="post">
-                <input type="hidden" asp-for="Id" id="SendPm_Id"/>
+                <input type="hidden" asp-for="Id" id="SendPm_Id" />
                 <div class="form-horizontal">
                     <div class="modal-body">
                         <div class="form-group">

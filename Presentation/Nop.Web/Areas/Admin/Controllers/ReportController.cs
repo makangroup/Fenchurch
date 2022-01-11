@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Fenchurch.Web.Areas.Admin.Models.Reports;
+using Microsoft.AspNetCore.Mvc;
 using Nop.Services.Security;
 using Nop.Web.Areas.Admin.Factories;
 using Nop.Web.Areas.Admin.Models.Reports;
@@ -217,7 +218,34 @@ namespace Nop.Web.Areas.Admin.Controllers
             var model = _reportModelFactory.PrepareRegisteredCustomersReportListModel(searchModel);
 
             return Json(model);
-        }        
+        }
+
+        #endregion
+
+        #region ShippingReports
+
+        public virtual IActionResult ReportShipments()
+        {
+            if (!_permissionService.Authorize(StandardPermissionProvider.ManageCustomers))
+                return AccessDeniedView();
+
+            //prepare model
+            var model = _reportModelFactory.PrepareTrackingSearchModel(new TrackingReportSearchModel());
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public virtual IActionResult ReportShipmentList(TrackingReportSearchModel searchModel)
+        {
+            if (!_permissionService.Authorize(StandardPermissionProvider.ManageCustomers))
+                return AccessDeniedDataTablesJson();
+
+            //prepare model
+            var model = _reportModelFactory.PrepareTrackingReportListModel(searchModel);
+
+            return Json(model);
+        }
 
         #endregion
 

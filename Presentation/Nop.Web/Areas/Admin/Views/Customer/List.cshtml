@@ -251,8 +251,11 @@
                                 SearchButtonId = "search-customers",
                                 Length = Model.PageSize,
                                 LengthMenu = Model.AvailablePageSizes,
+                                Ordering = true,
+                                SetOrder = true,
+                                Order = "[[9, \"desc\"]]",
                                 Filters = new List<FilterParameter>
-                                                {
+                                                                {
                                     new FilterParameter(nameof(Model.SelectedCustomerRoleIds)),
                                     new FilterParameter(nameof(Model.SearchEmail)),
                                     new FilterParameter(nameof(Model.SearchUsername)),
